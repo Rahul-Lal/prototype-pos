@@ -7,12 +7,17 @@
       mc:Ignorable="d" MaxHeight="1080" Height="1080" MaxWidth="1920"
       Title="EuropeanBurgers" Background="#FF3F7A8E">
 
+
+    <!--
+        <Button x:Name="btn" Click="btn_Click" Content="" Width="280" Height="132" FontSize="16" Margin="0,260,0,0" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+    -->
+
     <Grid Name="grdLayout" MaxWidth="1920" Width="1920">
 
-        <TextBlock x:Name="txtOutput" TextWrapping="Wrap" Text="Insert Text Here" FontSize="20" HorizontalAlignment="Left" Width="416" MaxHeight="1080" Background="#FFBBBBBB" Foreground="#FF0058CE" />
+        <TextBlock x:Name="txtOutput" TextWrapping="Wrap" Text="Insert Text Here" FontSize="20" HorizontalAlignment="Left" Width="421" MaxHeight="1080" Background="#FFBBBBBB" Foreground="#FF0058CE" />
 
         <TabControl Margin="421,0,0,167" HorizontalAlignment="Left" Width="1920">
-            <TabItem x:Name="btnEuropeanBurger" Header="European Burger" Width="250" Height="100" FontSize="16">
+            <TabItem x:Name="btnEuropeanBurger" Header="European Burger" Width="250" Height="100" FontSize="16" HorizontalAlignment="Right" Margin="0,-1,0,1">
                 <Grid HorizontalAlignment="Left" Width="1498" Height="805" VerticalAlignment="Center">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="1*"/>
@@ -49,7 +54,7 @@
                     <Image Grid.Column="4" Margin="25,10,24,147" Grid.Row="1" Source="/media/EuropeanBurger/Kaiser Burger.png" Stretch="Fill" Height="245"/>
                 </Grid>
             </TabItem>
-            
+
             <TabItem x:Name="btnChickenOther" Header="Chicken + Other" Width="250" Height="100" FontSize="16">
                 <Grid Height="806" Margin="10,0,429,0" VerticalAlignment="Top">
                     <Grid.RowDefinitions>
@@ -101,6 +106,24 @@
                         <ColumnDefinition Width="300*"/>
                         <ColumnDefinition Width="300*"/>
                     </Grid.ColumnDefinitions>
+
+                    <Button x:Name="btnSmallFries" Click="btnSmallFries_Click" Content="Fries (Small)" Width="280" Height="132" FontSize="16" Margin="0,260,0,0" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                    <Button x:Name="btnMediumFries" Click="btnMediumFries_Click" Content="Fries (Medium)" Width="280" Height="132" FontSize="16" Margin="0,260,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Column="1"/>
+                    <Button x:Name="btnLargeFries" Click="btnLargeFries_Click" Content="Fries (Large)" Width="280" Height="132" FontSize="16" Margin="0,260,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Column="2"/>
+                    <Button x:Name="btnGarlicBread" Click="btnGarlicBread_Click" Content="Garlic Bread" Width="280" Height="132" FontSize="16" Margin="0,260,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Column="3"/>
+                    <Button x:Name="btnMozzarellaStick" Click="btnMozzarellaStick_Click" Content="Mozzarella Sticks" Width="280" Height="132" FontSize="16" Margin="0,260,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Column="4"/>
+                    <Button x:Name="btnSpringRoll" Click="btnSpringRoll_Click" Content="Spring Rolls" Width="280" Height="132" FontSize="16" Margin="0,260,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Row="1"/>
+                    <Button x:Name="btnLoadedNachos" Click="btnLoadedNachos_Click" Content="Loaded Nachos" Width="280" Height="132" FontSize="16" Margin="7,260,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Column="1" Grid.Row="1"/>
+                    <Button x:Name="btnPoutine" Click="btnPoutine_Click" Content="Poutine" Width="280" Height="132" FontSize="16" Margin="0,260,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Column="2" Grid.Row="1"/>
+                    <Image Margin="10,10,10,148" Source="/media/Side/Crispy Fries in Classic Container.png" Stretch="Fill"/>
+                    <Image Margin="10,10,10,148" Source="/media/Side/Crispy Fries in Classic Container.png" Stretch="Fill" Grid.Column="1"/>
+                    <Image Margin="10,10,10,148" Source="/media/Side/Crispy Fries in Classic Container.png" Stretch="Fill" Grid.Column="2"/>
+                    <Image Grid.Column="3" Margin="10,10,10,148" Source="/media/Side/Garlic Bread.png" Stretch="Fill"/>
+                    <Image Grid.Column="4" Margin="10,10,10,148" Source="/media/Side/Mozzerella Sticks.png" Stretch="Fill"/>
+                    <Image Margin="10,10,10,147" Grid.Row="1" Source="/media/Side/Spring Roll.png" Stretch="Fill"/>
+                    <Image Grid.Column="1" Margin="7,10,10,147" Grid.Row="1" Source="/media/Side/Loaded Nachos with Spicy Toppings.png" Stretch="Fill"/>
+                    <Image Grid.Column="2" Margin="10,10,10,147" Grid.Row="1" Source="/media/Side/Delicious Poutine in Takeout Box.png" Stretch="Fill"/>
+
                 </Grid>
             </TabItem>
             <TabItem x:Name="btnDesserts" Header="Desserts" Width="250" Height="100" FontSize="16">
