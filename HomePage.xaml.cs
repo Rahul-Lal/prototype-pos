@@ -74,5 +74,55 @@ namespace Prototype
         {
 
         }
+
+        private void btnNashvilleHot_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnKyotoKatsu_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnMarrakesh_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnBaja_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnSeoulFire_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnBangkokSatay_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnOaxaca_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnBombay_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnNordic_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnHavana_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
