@@ -8,11 +8,15 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("media/crispy%20fries%20in%20classic%20container.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("media/delicious%20poutine%20in%20takeout%20box.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("media/garlic%20bread.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("media/loaded%20nachos%20with%20spicy%20toppings.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("media/mozzerella%20sticks.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("media/spring%20roll.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("media/chickenothers/baja.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("media/chickenothers/bangkok%20satay.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("media/chickenothers/bombay.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("media/chickenothers/havana.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("media/chickenothers/kyoto%20katsu.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("media/chickenothers/marrakesh.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("media/chickenothers/nashville%20hot.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("media/chickenothers/nordic.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("media/chickenothers/oaxaca.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("media/chickenothers/seoul%20fire.png")]
 
 
