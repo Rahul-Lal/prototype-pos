@@ -110,8 +110,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="media\Combo\" />
-    <Folder Include="media\Dessert\" />
-    <Folder Include="media\Side\" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="media\ChickenOthers\Baja.png" />
@@ -124,6 +122,29 @@
     <Resource Include="media\ChickenOthers\Nordic.png" />
     <Resource Include="media\ChickenOthers\Oaxaca.png" />
     <Resource Include="media\ChickenOthers\Seoul Fire.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="media\Side\Crispy Fries in Classic Container.png" />
+    <Resource Include="media\Side\Delicious Poutine in Takeout Box.png" />
+    <Resource Include="media\Side\Garlic Bread.png" />
+    <Resource Include="media\Side\Loaded Nachos with Spicy Toppings.png" />
+    <Resource Include="media\Side\Mozzerella Sticks.png" />
+    <Resource Include="media\Side\Spring Roll.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="media\Dessert\Baklava Bites.png" />
+    <Resource Include="media\Dessert\Brownie.png" />
+    <Resource Include="media\Dessert\Churro Cinnamon Shake.png" />
+    <Resource Include="media\Dessert\Churros.png" />
+    <Resource Include="media\Dessert\Creme Brulee.png" />
+    <Resource Include="media\Dessert\Dubai Chocolate Shake.png" />
+    <Resource Include="media\Dessert\Dulce De Leche Shake.png" />
+    <Resource Include="media\Dessert\Mango Lassi Shake.png" />
+    <Resource Include="media\Dessert\Matcha Shake.png" />
+    <Resource Include="media\Dessert\Mochi Ice Cream.png" />
+    <Resource Include="media\Dessert\Pandan Coconut Shake.png" />
+    <Resource Include="media\Dessert\Tiramisu Cup.png" />
+    <Resource Include="media\Dessert\Tiramisu Shake.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

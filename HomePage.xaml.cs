@@ -124,5 +124,110 @@ namespace Prototype
         {
 
         }
+
+        private void btnSmallFries_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnMediumFries_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnLargeFries_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnGarlicBread_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnMozzarellaStick_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnSpringRoll_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnLoadedNachos_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnPoutine_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnChocolateBrownie_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnChurros_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnTiramisuCup_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnMochiIceCream_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnCremeBrulee_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnBaklavaBites_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnMatchaGreenTeaShake_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnChurroCinnamonShake_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnMangoLassiShake_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnDulceDeLecheShake_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnDubaiChocolateShake_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnPandanCoconutShake_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnTiramisuShake_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

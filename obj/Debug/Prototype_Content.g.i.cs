@@ -8,11 +8,18 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("media/side/crispy%20fries%20in%20classic%20container.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("media/side/delicious%20poutine%20in%20takeout%20box.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("media/side/garlic%20bread.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("media/side/loaded%20nachos%20with%20spicy%20toppings.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("media/side/mozzerella%20sticks.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("media/side/spring%20roll.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("media/dessert/baklava%20bites.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("media/dessert/brownie.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("media/dessert/churro%20cinnamon%20shake.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("media/dessert/churros.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("media/dessert/creme%20brulee.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("media/dessert/dubai%20chocolate%20shake.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("media/dessert/dulce%20de%20leche%20shake.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("media/dessert/mango%20lassi%20shake.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("media/dessert/matcha%20shake.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("media/dessert/mochi%20ice%20cream.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("media/dessert/pandan%20coconut%20shake.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("media/dessert/tiramisu%20cup.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("media/dessert/tiramisu%20shake.png")]
 
 
