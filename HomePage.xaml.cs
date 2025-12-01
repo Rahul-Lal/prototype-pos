@@ -25,9 +25,12 @@ namespace Prototype
             InitializeComponent();
         }
 
+        double total = 0.0;
+
         private void btnSingleOlympian_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Single Olympian Burger               $12.50\n";
+            total += 12.50;
         }
 
         private void btnDoubleOlympian_Click(object sender, RoutedEventArgs e)
@@ -226,6 +229,111 @@ namespace Prototype
         }
 
         private void btnTiramisuShake_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnSmallCoke_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnSmallCokeNS_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnMediumCokeNS_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnLargeCokeNS_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnSmallJarritos_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnLargeCoke_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnMediumCoke_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnMediumJarritos_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnLargeJarritos_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnSmallIrnBru_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnMediumIrnBru_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnLargeIrnBru_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnSmallLnP_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnMediumLnP_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnLargeLnP_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnSmallSparletta_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnMediumSparletta_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnLargeSparletta_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnSmallTing_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnMediumTing_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnLargeTing_Click(object sender, RoutedEventArgs e)
         {
 
         }

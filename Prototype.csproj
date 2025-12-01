@@ -110,6 +110,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="media\Combo\" />
+    <Folder Include="media\Drink\" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="media\ChickenOthers\Baja.png" />
@@ -145,6 +146,27 @@
     <Resource Include="media\Dessert\Pandan Coconut Shake.png" />
     <Resource Include="media\Dessert\Tiramisu Cup.png" />
     <Resource Include="media\Dessert\Tiramisu Shake.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Coca-Cola.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="CokeNS.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Sparletta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="IrnBru.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="LnP.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Jarritos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ting.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
