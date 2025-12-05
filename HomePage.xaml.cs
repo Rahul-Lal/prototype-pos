@@ -137,12 +137,14 @@ namespace Prototype
 
         private void btnNordic_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Nordic Salmon Burger               $12.50\n";
+            total += 12.50;
         }
 
         private void btnHavana_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Havana Fish Burger               $12.50\n";
+            total += 12.50;
         }
 
         private void btnSmallFries_Click(object sender, RoutedEventArgs e)
