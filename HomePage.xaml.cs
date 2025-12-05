@@ -169,6 +169,9 @@ namespace Prototype
 
         private void btnSmallFries_Click(object sender, RoutedEventArgs e)
         {
+            txtOutput.Text += "Small Fries \n";
+            txtPrices.Text += "$03.00\n";
+            total += 3.00;
 
         }
 
