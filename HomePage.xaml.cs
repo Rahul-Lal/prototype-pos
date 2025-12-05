@@ -99,61 +99,71 @@ namespace Prototype
 
         private void btnNashvilleHot_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Nashville Hot Chicken Burger               $10.50\n";
+            txtOutput.Text += "Nashville Hot Chicken Burger \n";
+            txtPrices.Text += "$10.50\n";
             total += 10.50;
         }
 
         private void btnKyotoKatsu_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Kyoto Katsu Chicken Burger               $12.50\n";
+            txtOutput.Text += "Kyoto Katsu Chicken Burger \n";
+            txtPrices.Text += "$12.50\n";
             total += 12.50;
         }
 
         private void btnMarrakesh_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Marrakesh Chicken Burger               $14.50\n";
+            txtOutput.Text += "Marrakesh Chicken Burger \n";
+            txtPrices.Text += "$14.50\n";
             total += 14.50;
         }
 
         private void btnBaja_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Baja Chicken Burger               $14.50\n";
+            txtOutput.Text += "Baja Chicken Burger \n";
+            txtPrices.Text += "$14.50\n";
             total += 14.50;
         }
 
         private void btnSeoulFire_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Seoul Fire Chicken Burger               $14.50\n";
+            txtOutput.Text += "Seoul Fire Chicken Burger \n";
+            txtPrices.Text += "$14.50\n";
             total += 14.50;
         }
 
         private void btnBangkokSatay_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Bangkok Satay Chicken Burger               $14.50\n";
+            txtOutput.Text += "Bangkok Satay Chicken Burger \n";
+            txtPrices.Text += "$14.50\n";
             total += 14.50;
         }
 
         private void btnOaxaca_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Oaxaca Veggie Burger               $10.50\n";
+            txtOutput.Text += "Oaxaca Veggie Burger \n";
+            txtPrices.Text += "$10.50\n";
             total += 10.50;
         }
 
         private void btnBombay_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Bombay Veggie Burger               $12.50\n";
+            txtOutput.Text += "Bombay Veggie Burger \n";
+            txtPrices.Text += "$12.50\n";
             total += 12.50;
         }
 
         private void btnNordic_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Nordic Salmon Burger               $12.50\n";
+            txtOutput.Text += "Nordic Salmon Burger \n";
+            txtPrices.Text += "$12.50\n";
             total += 12.50;
         }
 
         private void btnHavana_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Havana Fish Burger               $12.50\n";
+            txtOutput.Text += "Havana Fish Burger \n";
+            txtPrices.Text += "$12.50\n";
             total += 12.50;
         }
 
@@ -366,5 +376,14 @@ namespace Prototype
         {
 
         }
+
+        /*
+            private void btn{ FunctionName }_Click(object sender, RoutedEventArgs e)
+            {
+                txtOutput.Text += "{Insert Menu Item Title} \n";
+                txtPrices.Text += "$0.00\n";
+                total += 0.00;
+            }
+         */
     }
 }

@@ -15,8 +15,8 @@
     <Grid Name="grdLayout" MaxWidth="1920" Width="1920">
 
         <!-- FIX: Removed IsReadOnly property from TextBlock, which is invalid -->
-        <TextBlock x:Name="txtOutput" TextWrapping="Wrap" FontSize="20" HorizontalAlignment="Left" Width="297" MaxHeight="1080" Background="#FFBBBBBB" Foreground="#FF0058CE" />
-        <TextBlock x:Name="txtPrices" TextWrapping="Wrap" FontSize="20" HorizontalAlignment="Left" Width="124" MaxHeight="1080" Background="#FFBBBBBB" Foreground="#FF0058CE" Margin="297,0,0,0" />
+        <TextBlock x:Name="txtOutput" TextWrapping="Wrap" FontSize="20" HorizontalAlignment="Left" Width="346" MaxHeight="1080" Background="#FFBBBBBB" Foreground="#FF0058CE" />
+        <TextBlock x:Name="txtPrices" TextWrapping="Wrap" FontSize="20" HorizontalAlignment="Left" Width="75" MaxHeight="1080" Background="#FFBBBBBB" Foreground="#FF0058CE" Margin="346,0,0,0" TextAlignment="Right" />
 
         <TabControl Margin="421,0,0,167" HorizontalAlignment="Left" Width="1920">
             <TabItem x:Name="btnEuropeanBurger" Header="European Burger" Width="250" Height="100" FontSize="16" HorizontalAlignment="Right" Margin="0,-1,0,1">
