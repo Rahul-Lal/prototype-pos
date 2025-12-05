@@ -177,37 +177,51 @@ namespace Prototype
 
         private void btnMediumFries_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Medium Fires \n";
+            txtPrices.Text += "$4.50\n";
+            total += 4.50;
         }
 
         private void btnLargeFries_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Large Fries \n";
+            txtPrices.Text += "$5.00\n";
+            total += 5.00;
         }
 
         private void btnGarlicBread_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Garlic Bread \n";
+            txtPrices.Text += "$4.50\n";
+            total += 4.50;
         }
 
         private void btnMozzarellaStick_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Mozzarella Sticks \n";
+            txtPrices.Text += "$5.00\n";
+            total += 5.00;
         }
 
         private void btnSpringRoll_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Spring Rolls \n";
+            txtPrices.Text += "$5.00\n";
+            total += 5.00;
         }
 
         private void btnLoadedNachos_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Loaded Nachos \n";
+            txtPrices.Text += "$6.50\n";
+            total += 6.50;
         }
 
         private void btnPoutine_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Poutine \n";
+            txtPrices.Text += "$6.50\n";
+            total += 6.50;
         }
 
         private void btnChocolateBrownie_Click(object sender, RoutedEventArgs e)
