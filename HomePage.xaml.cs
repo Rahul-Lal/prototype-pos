@@ -35,87 +35,104 @@ namespace Prototype
 
         private void btnDoubleOlympian_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Double Olympian Burger               $14.50\n";
+            total += 14.50;
         }
 
         private void btnSingleParisian_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Single Parisian Burger               $12.50\n";
+            total += 12.50;
         }
 
         private void btnDoubleParisian_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Double Parisian Burger               $14.50\n";
+            total += 14.50;
         }
 
         private void btnSingleRoma_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Single Roma Burger               $12.50\n";
+            total += 12.50;
         }
 
         private void btnDoubleRoma_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Double Roma Burger               $14.50\n";
+            total += 14.50;
         }
 
         private void btnSingleMatador_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Single Matador Burger               $12.50\n";
+            total += 12.50;
         }
 
         private void btnDoubleMatador_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Double Matador Burger               $14.50\n";
+            total += 14.50;
         }
 
         private void btnSingleKaiser_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Single Kaiser Burger               $12.50\n";
+            total += 12.50;
         }
 
         private void btnDoubleKaiser_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Double Kaiser Burger               $14.50\n";
+            total += 14.50;
         }
 
         private void btnNashvilleHot_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Nashville Hot Chicken Burger               $10.50\n";
+            total += 10.50;
         }
 
         private void btnKyotoKatsu_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Kyoto Katsu Chicken Burger               $12.50\n";
+            total += 12.50;
         }
 
         private void btnMarrakesh_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Marrakesh Chicken Burger               $14.50\n";
+            total += 14.50;
         }
 
         private void btnBaja_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Baja Chicken Burger               $14.50\n";
+            total += 14.50;
         }
 
         private void btnSeoulFire_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Seoul Fire Chicken Burger               $14.50\n";
+            total += 14.50;
         }
 
         private void btnBangkokSatay_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Bangkok Satay Chicken Burger               $14.50\n";
+            total += 14.50;
         }
 
         private void btnOaxaca_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Oaxaca Veggie Burger               $10.50\n";
+            total += 10.50;
         }
 
         private void btnBombay_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Bombay Veggie Burger               $12.50\n";
+            total += 12.50;
         }
 
         private void btnNordic_Click(object sender, RoutedEventArgs e)
