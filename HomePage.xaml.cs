@@ -29,61 +29,71 @@ namespace Prototype
 
         private void btnSingleOlympian_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Single Olympian Burger               $12.50\n";
+            txtOutput.Text += "Single Olympian Burger \n";
+            txtPrices.Text += "$12.50\n";
             total += 12.50;
         }
 
         private void btnDoubleOlympian_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Double Olympian Burger               $14.50\n";
+            txtOutput.Text += "Double Olympian Burger \n";
+            txtPrices.Text += "$14.50\n";
             total += 14.50;
         }
 
         private void btnSingleParisian_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Single Parisian Burger               $12.50\n";
+            txtOutput.Text += "Single Parisian Burger \n";
+            txtPrices.Text += "$12.50\n";
             total += 12.50;
         }
 
         private void btnDoubleParisian_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Double Parisian Burger               $14.50\n";
+            txtOutput.Text += "Double Parisian Burger \n";
+            txtPrices.Text += "$14.50\n";
             total += 14.50;
         }
 
         private void btnSingleRoma_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Single Roma Burger               $12.50\n";
+            txtOutput.Text += "Single Roma Burger \n";
+            txtPrices.Text += "$12.50\n";
             total += 12.50;
         }
 
         private void btnDoubleRoma_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Double Roma Burger               $14.50\n";
+            txtOutput.Text += "Double Roma Burger \n";
+            txtPrices.Text += "$14.50\n";
             total += 14.50;
         }
 
         private void btnSingleMatador_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Single Matador Burger               $12.50\n";
+            txtOutput.Text += "Single Matador Burger \n";
+            txtPrices.Text += "$12.50\n";
             total += 12.50;
         }
 
         private void btnDoubleMatador_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Double Matador Burger               $14.50\n";
+            txtOutput.Text += "Double Matador Burger \n";
+            txtPrices.Text += "$14.50\n";
             total += 14.50;
         }
 
         private void btnSingleKaiser_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Single Kaiser Burger               $12.50\n";
+            txtOutput.Text += "Single Kaiser Burger \n";
+            txtPrices.Text += "$12.50\n";
             total += 12.50;
         }
 
         private void btnDoubleKaiser_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Double Kaiser Burger               $14.50\n";
+            txtOutput.Text += "Double Kaiser Burger \n";
+            txtPrices.Text += "$14.50\n";
             total += 14.50;
         }
 
