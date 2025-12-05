@@ -170,7 +170,7 @@ namespace Prototype
         private void btnSmallFries_Click(object sender, RoutedEventArgs e)
         {
             txtOutput.Text += "Small Fries \n";
-            txtPrices.Text += "$03.00\n";
+            txtPrices.Text += "$3.00\n";
             total += 3.00;
 
         }
@@ -226,32 +226,44 @@ namespace Prototype
 
         private void btnChocolateBrownie_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Chocolate Brownie \n";
+            txtPrices.Text += "$4.50\n";
+            total += 4.50;
         }
 
         private void btnChurros_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Churros \n";
+            txtPrices.Text += "$4.50\n";
+            total += 4.50;
         }
 
         private void btnTiramisuCup_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Tiramisu Cup \n";
+            txtPrices.Text += "$5.00\n";
+            total += 5.00;
         }
 
         private void btnMochiIceCream_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Mochi Ice Cream \n";
+            txtPrices.Text += "$5.00\n";
+            total += 5.00;
         }
 
         private void btnCremeBrulee_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Creme Brulee \n";
+            txtPrices.Text += "$6.50\n";
+            total += 6.50;
         }
 
         private void btnBaklavaBites_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Baklava Bites \n";
+            txtPrices.Text += "$6.50\n";
+            total += 6.50;
         }
 
         private void btnMatchaGreenTeaShake_Click(object sender, RoutedEventArgs e)
