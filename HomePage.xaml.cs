@@ -420,6 +420,13 @@ namespace Prototype
 
         }
 
+        private void btnClearOrder_Click(object sender, RoutedEventArgs e)
+        {
+            txtOutput.Text = "";
+            txtPrices.Text = "";
+            total = 0.0;
+        }
+
         /*
             private void btn{ FunctionName }_Click(object sender, RoutedEventArgs e)
             {

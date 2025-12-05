@@ -20,7 +20,7 @@
 
         <TabControl Margin="421,0,0,167" HorizontalAlignment="Left" Width="1920">
             <TabItem x:Name="btnEuropeanBurger" Header="European Burger" Width="250" Height="100" FontSize="16" HorizontalAlignment="Right" Margin="0,-1,0,1">
-                <Grid HorizontalAlignment="Left" Width="1498" Height="805" VerticalAlignment="Center">
+                <Grid HorizontalAlignment="Left" Width="1498" Height="818" VerticalAlignment="Center">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="1*"/>
                         <RowDefinition Height="*"/>
@@ -303,5 +303,6 @@
 
             </TabItem>
         </TabControl>
+        <Button x:Name="btnClearOrder" Content="Clear Order" HorizontalAlignment="Left" Margin="421,913,0,0" VerticalAlignment="Top" Height="167" Width="189" Click="btnClearOrder_Click" FontSize="24"/>
     </Grid>
 </Page>
