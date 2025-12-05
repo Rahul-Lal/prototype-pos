@@ -268,37 +268,51 @@ namespace Prototype
 
         private void btnMatchaGreenTeaShake_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Matcha Green Tea Shake \n";
+            txtPrices.Text += "$6.00\n";
+            total += 6.00;
         }
 
         private void btnChurroCinnamonShake_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Churro Cinnamon Shake \n";
+            txtPrices.Text += "$6.00\n";
+            total += 6.00;
         }
 
         private void btnMangoLassiShake_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Mango Lassi Shake \n";
+            txtPrices.Text += "$6.00\n";
+            total += 6.00;
         }
 
         private void btnDulceDeLecheShake_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Dulce De Leche Shake \n";
+            txtPrices.Text += "$6.00\n";
+            total += 6.00;
         }
 
         private void btnDubaiChocolateShake_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Dubai Chocolate Shake \n";
+            txtPrices.Text += "$6.00\n";
+            total += 6.00;
         }
 
         private void btnPandanCoconutShake_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Pandan Coconut Shake \n";
+            txtPrices.Text += "$6.00\n";
+            total += 6.00;
         }
 
         private void btnTiramisuShake_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Tiramisu Shake \n";
+            txtPrices.Text += "$6.00\n";
+            total += 6.00;
         }
 
         private void btnSmallCoke_Click(object sender, RoutedEventArgs e)
