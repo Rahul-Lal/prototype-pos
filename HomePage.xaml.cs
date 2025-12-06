@@ -358,12 +358,18 @@ namespace Prototype
 
         private void btnSmallCoke_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Small Coke \n";
+            txtPrices.Text += "$2.50\n";
+            total += 2.50;
+            totalAmount(total);
         }
 
         private void btnSmallCokeNS_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Small Coke No Sugar \n";
+            txtPrices.Text += "$2.50\n";
+            total += 2.50;
+            totalAmount(total);
         }
 
         private void btnMediumCokeNS_Click(object sender, RoutedEventArgs e)
@@ -378,17 +384,26 @@ namespace Prototype
 
         private void btnSmallJarritos_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Small Jarritos \n";
+            txtPrices.Text += "$2.50\n";
+            total += 2.50;
+            totalAmount(total);
         }
 
         private void btnLargeCoke_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Small Coke \n";
+            txtPrices.Text += "$4.50\n";
+            total += 4.50;
+            totalAmount(total);
         }
 
         private void btnMediumCoke_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Small Coke \n";
+            txtPrices.Text += "$3.50\n";
+            total += 3.50;
+            totalAmount(total);
         }
 
         private void btnMediumJarritos_Click(object sender, RoutedEventArgs e)
@@ -403,7 +418,10 @@ namespace Prototype
 
         private void btnSmallIrnBru_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Small Irn Bru \n";
+            txtPrices.Text += "$2.50\n";
+            total += 2.50;
+            totalAmount(total);
         }
 
         private void btnMediumIrnBru_Click(object sender, RoutedEventArgs e)
@@ -418,7 +436,10 @@ namespace Prototype
 
         private void btnSmallLnP_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Small L&P \n";
+            txtPrices.Text += "$2.50\n";
+            total += 2.50;
+            totalAmount(total);
         }
 
         private void btnMediumLnP_Click(object sender, RoutedEventArgs e)
@@ -433,7 +454,10 @@ namespace Prototype
 
         private void btnSmallSparletta_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Small Sparletta \n";
+            txtPrices.Text += "$2.50\n";
+            total += 2.50;
+            totalAmount(total);
         }
 
         private void btnMediumSparletta_Click(object sender, RoutedEventArgs e)
@@ -448,7 +472,10 @@ namespace Prototype
 
         private void btnSmallTing_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Small Ting \n";
+            txtPrices.Text += "$2.50\n";
+            total += 2.50;
+            totalAmount(total);
         }
 
         private void btnMediumTing_Click(object sender, RoutedEventArgs e)
