@@ -374,12 +374,18 @@ namespace Prototype
 
         private void btnMediumCokeNS_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Medium Coke No Sugar \n";
+            txtPrices.Text += "$3.50\n";
+            total += 3.50;
+            totalAmount(total);
         }
 
         private void btnLargeCokeNS_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Large Coke No Sugar \n";
+            txtPrices.Text += "$4.50\n";
+            total += 4.50;
+            totalAmount(total);
         }
 
         private void btnSmallJarritos_Click(object sender, RoutedEventArgs e)
@@ -400,7 +406,7 @@ namespace Prototype
 
         private void btnMediumCoke_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Small Coke \n";
+            txtOutput.Text += "Medium Coke \n";
             txtPrices.Text += "$3.50\n";
             total += 3.50;
             totalAmount(total);
@@ -408,12 +414,18 @@ namespace Prototype
 
         private void btnMediumJarritos_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Medium Jarritos \n";
+            txtPrices.Text += "$3.50\n";
+            total += 3.50;
+            totalAmount(total);
         }
 
         private void btnLargeJarritos_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Large Jarritos \n";
+            txtPrices.Text += "$4.50\n";
+            total += 4.50;
+            totalAmount(total);
         }
 
         private void btnSmallIrnBru_Click(object sender, RoutedEventArgs e)
@@ -426,12 +438,18 @@ namespace Prototype
 
         private void btnMediumIrnBru_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Medium Irn Bru \n";
+            txtPrices.Text += "$3.50\n";
+            total += 3.50;
+            totalAmount(total);
         }
 
         private void btnLargeIrnBru_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Large Irn Bru \n";
+            txtPrices.Text += "$4.50\n";
+            total += 4.50;
+            totalAmount(total);
         }
 
         private void btnSmallLnP_Click(object sender, RoutedEventArgs e)
@@ -444,12 +462,18 @@ namespace Prototype
 
         private void btnMediumLnP_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Medium L&P \n";
+            txtPrices.Text += "$3.50\n";
+            total += 3.50;
+            totalAmount(total);
         }
 
         private void btnLargeLnP_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Large L&P \n";
+            txtPrices.Text += "$4.50\n";
+            total += 4.50;
+            totalAmount(total);
         }
 
         private void btnSmallSparletta_Click(object sender, RoutedEventArgs e)
@@ -462,12 +486,18 @@ namespace Prototype
 
         private void btnMediumSparletta_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Medium Sparletta \n";
+            txtPrices.Text += "$3.50\n";
+            total += 3.50;
+            totalAmount(total);
         }
 
         private void btnLargeSparletta_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Large Sparletta \n";
+            txtPrices.Text += "$4.50\n";
+            total += 4.50;
+            totalAmount(total);
         }
 
         private void btnSmallTing_Click(object sender, RoutedEventArgs e)
@@ -480,12 +510,18 @@ namespace Prototype
 
         private void btnMediumTing_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Medium Ting \n";
+            txtPrices.Text += "$3.50\n";
+            total += 3.50;
+            totalAmount(total);
         }
 
         private void btnLargeTing_Click(object sender, RoutedEventArgs e)
         {
-
+            txtOutput.Text += "Large Ting \n";
+            txtPrices.Text += "$4.50\n";
+            total += 4.50;
+            totalAmount(total);
         }
 
         private void btnClearOrder_Click(object sender, RoutedEventArgs e)
