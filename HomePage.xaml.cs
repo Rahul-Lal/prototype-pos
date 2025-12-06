@@ -529,6 +529,7 @@ namespace Prototype
             txtOutput.Text = "";
             txtPrices.Text = "";
             total = 0.0;
+            totalAmount(total);
         }
 
         private void totalAmount(double amount)
