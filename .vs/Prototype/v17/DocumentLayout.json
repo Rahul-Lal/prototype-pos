@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Rahul\\OneDrive\\Documents\\Projects\\prototype-pos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3658195F-6C12-4ECF-A96C-0B12CECADA65}|Prototype.csproj|c:\\users\\rahul\\onedrive\\documents\\projects\\prototype-pos\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3658195F-6C12-4ECF-A96C-0B12CECADA65}|Prototype.csproj|solutionrelative:homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3658195F-6C12-4ECF-A96C-0B12CECADA65}|Prototype.csproj|C:\\Users\\Rahul\\OneDrive\\Documents\\Projects\\prototype-pos\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{3658195F-6C12-4ECF-A96C-0B12CECADA65}|Prototype.csproj|solutionrelative:homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3658195F-6C12-4ECF-A96C-0B12CECADA65}|Prototype.csproj|c:\\users\\rahul\\onedrive\\documents\\projects\\prototype-pos\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3658195F-6C12-4ECF-A96C-0B12CECADA65}|Prototype.csproj|solutionrelative:homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3658195F-6C12-4ECF-A96C-0B12CECADA65}|Prototype.csproj|C:\\Users\\Rahul\\OneDrive\\Documents\\Projects\\prototype-pos\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -22,17 +22,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "HomePage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Rahul\\OneDrive\\Documents\\Projects\\prototype-pos\\HomePage.xaml.cs",
               "RelativeDocumentMoniker": "HomePage.xaml.cs",
               "ToolTip": "C:\\Users\\Rahul\\OneDrive\\Documents\\Projects\\prototype-pos\\HomePage.xaml.cs",
               "RelativeToolTip": "HomePage.xaml.cs",
-              "ViewState": "AgIAAAQCAAAAAAAAAAAAACUCAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAOYBAAAAAAAAAAAuwBsCAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-06T06:49:14.354Z",
               "EditorCaption": ""
@@ -46,18 +46,20 @@
               "ToolTip": "C:\\Users\\Rahul\\OneDrive\\Documents\\Projects\\prototype-pos\\App.xaml",
               "RelativeToolTip": "App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-06T06:48:21.419Z"
+              "WhenOpened": "2025-12-06T06:48:21.419Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "HomePage.xaml",
               "DocumentMoniker": "C:\\Users\\Rahul\\OneDrive\\Documents\\Projects\\prototype-pos\\HomePage.xaml",
               "RelativeDocumentMoniker": "HomePage.xaml",
               "ToolTip": "C:\\Users\\Rahul\\OneDrive\\Documents\\Projects\\prototype-pos\\HomePage.xaml",
               "RelativeToolTip": "HomePage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-06T06:40:52.373Z"
+              "WhenOpened": "2025-12-06T06:40:52.373Z",
+              "EditorCaption": ""
             }
           ]
         }

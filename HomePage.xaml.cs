@@ -537,6 +537,7 @@ namespace Prototype
             txtTotal.Text = total.ToString("C");
         }
 
+
         /*
             private void btn{ FunctionName }_Click(object sender, RoutedEventArgs e)
             {
