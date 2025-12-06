@@ -32,6 +32,7 @@ namespace Prototype
             txtOutput.Text += "Single Olympian Burger \n";
             txtPrices.Text += "$12.50\n";
             total += 12.50;
+            totalAmount(total);
         }
 
         private void btnDoubleOlympian_Click(object sender, RoutedEventArgs e)
@@ -39,6 +40,7 @@ namespace Prototype
             txtOutput.Text += "Double Olympian Burger \n";
             txtPrices.Text += "$14.50\n";
             total += 14.50;
+            totalAmount(total);
         }
 
         private void btnSingleParisian_Click(object sender, RoutedEventArgs e)
@@ -46,6 +48,7 @@ namespace Prototype
             txtOutput.Text += "Single Parisian Burger \n";
             txtPrices.Text += "$12.50\n";
             total += 12.50;
+            totalAmount(total);
         }
 
         private void btnDoubleParisian_Click(object sender, RoutedEventArgs e)
@@ -53,6 +56,7 @@ namespace Prototype
             txtOutput.Text += "Double Parisian Burger \n";
             txtPrices.Text += "$14.50\n";
             total += 14.50;
+            totalAmount(total);
         }
 
         private void btnSingleRoma_Click(object sender, RoutedEventArgs e)
@@ -60,6 +64,7 @@ namespace Prototype
             txtOutput.Text += "Single Roma Burger \n";
             txtPrices.Text += "$12.50\n";
             total += 12.50;
+            totalAmount(total);
         }
 
         private void btnDoubleRoma_Click(object sender, RoutedEventArgs e)
@@ -67,6 +72,7 @@ namespace Prototype
             txtOutput.Text += "Double Roma Burger \n";
             txtPrices.Text += "$14.50\n";
             total += 14.50;
+            totalAmount(total);
         }
 
         private void btnSingleMatador_Click(object sender, RoutedEventArgs e)
@@ -74,6 +80,7 @@ namespace Prototype
             txtOutput.Text += "Single Matador Burger \n";
             txtPrices.Text += "$12.50\n";
             total += 12.50;
+            totalAmount(total);
         }
 
         private void btnDoubleMatador_Click(object sender, RoutedEventArgs e)
@@ -81,6 +88,7 @@ namespace Prototype
             txtOutput.Text += "Double Matador Burger \n";
             txtPrices.Text += "$14.50\n";
             total += 14.50;
+            totalAmount(total);
         }
 
         private void btnSingleKaiser_Click(object sender, RoutedEventArgs e)
@@ -88,6 +96,7 @@ namespace Prototype
             txtOutput.Text += "Single Kaiser Burger \n";
             txtPrices.Text += "$12.50\n";
             total += 12.50;
+            totalAmount(total);
         }
 
         private void btnDoubleKaiser_Click(object sender, RoutedEventArgs e)
@@ -95,6 +104,7 @@ namespace Prototype
             txtOutput.Text += "Double Kaiser Burger \n";
             txtPrices.Text += "$14.50\n";
             total += 14.50;
+            totalAmount(total);
         }
 
         private void btnNashvilleHot_Click(object sender, RoutedEventArgs e)
@@ -102,6 +112,7 @@ namespace Prototype
             txtOutput.Text += "Nashville Hot Chicken Burger \n";
             txtPrices.Text += "$10.50\n";
             total += 10.50;
+            totalAmount(total);
         }
 
         private void btnKyotoKatsu_Click(object sender, RoutedEventArgs e)
@@ -109,6 +120,7 @@ namespace Prototype
             txtOutput.Text += "Kyoto Katsu Chicken Burger \n";
             txtPrices.Text += "$12.50\n";
             total += 12.50;
+            totalAmount(total);
         }
 
         private void btnMarrakesh_Click(object sender, RoutedEventArgs e)
@@ -116,6 +128,7 @@ namespace Prototype
             txtOutput.Text += "Marrakesh Chicken Burger \n";
             txtPrices.Text += "$14.50\n";
             total += 14.50;
+            totalAmount(total);
         }
 
         private void btnBaja_Click(object sender, RoutedEventArgs e)
@@ -123,6 +136,7 @@ namespace Prototype
             txtOutput.Text += "Baja Chicken Burger \n";
             txtPrices.Text += "$14.50\n";
             total += 14.50;
+            totalAmount(total);
         }
 
         private void btnSeoulFire_Click(object sender, RoutedEventArgs e)
@@ -130,6 +144,7 @@ namespace Prototype
             txtOutput.Text += "Seoul Fire Chicken Burger \n";
             txtPrices.Text += "$14.50\n";
             total += 14.50;
+            totalAmount(total);
         }
 
         private void btnBangkokSatay_Click(object sender, RoutedEventArgs e)
@@ -137,6 +152,7 @@ namespace Prototype
             txtOutput.Text += "Bangkok Satay Chicken Burger \n";
             txtPrices.Text += "$14.50\n";
             total += 14.50;
+            totalAmount(total);
         }
 
         private void btnOaxaca_Click(object sender, RoutedEventArgs e)
@@ -144,6 +160,7 @@ namespace Prototype
             txtOutput.Text += "Oaxaca Veggie Burger \n";
             txtPrices.Text += "$10.50\n";
             total += 10.50;
+            totalAmount(total);
         }
 
         private void btnBombay_Click(object sender, RoutedEventArgs e)
@@ -151,6 +168,7 @@ namespace Prototype
             txtOutput.Text += "Bombay Veggie Burger \n";
             txtPrices.Text += "$12.50\n";
             total += 12.50;
+            totalAmount(total);
         }
 
         private void btnNordic_Click(object sender, RoutedEventArgs e)
@@ -158,6 +176,7 @@ namespace Prototype
             txtOutput.Text += "Nordic Salmon Burger \n";
             txtPrices.Text += "$12.50\n";
             total += 12.50;
+            totalAmount(total);
         }
 
         private void btnHavana_Click(object sender, RoutedEventArgs e)
@@ -165,6 +184,7 @@ namespace Prototype
             txtOutput.Text += "Havana Fish Burger \n";
             txtPrices.Text += "$12.50\n";
             total += 12.50;
+            totalAmount(total);
         }
 
         private void btnSmallFries_Click(object sender, RoutedEventArgs e)
@@ -172,6 +192,7 @@ namespace Prototype
             txtOutput.Text += "Small Fries \n";
             txtPrices.Text += "$3.00\n";
             total += 3.00;
+            totalAmount(total);
 
         }
 
@@ -180,6 +201,7 @@ namespace Prototype
             txtOutput.Text += "Medium Fires \n";
             txtPrices.Text += "$4.50\n";
             total += 4.50;
+            totalAmount(total);
         }
 
         private void btnLargeFries_Click(object sender, RoutedEventArgs e)
@@ -187,6 +209,7 @@ namespace Prototype
             txtOutput.Text += "Large Fries \n";
             txtPrices.Text += "$5.00\n";
             total += 5.00;
+            totalAmount(total);
         }
 
         private void btnGarlicBread_Click(object sender, RoutedEventArgs e)
@@ -194,6 +217,7 @@ namespace Prototype
             txtOutput.Text += "Garlic Bread \n";
             txtPrices.Text += "$4.50\n";
             total += 4.50;
+            totalAmount(total);
         }
 
         private void btnMozzarellaStick_Click(object sender, RoutedEventArgs e)
@@ -201,6 +225,7 @@ namespace Prototype
             txtOutput.Text += "Mozzarella Sticks \n";
             txtPrices.Text += "$5.00\n";
             total += 5.00;
+            totalAmount(total);
         }
 
         private void btnSpringRoll_Click(object sender, RoutedEventArgs e)
@@ -208,6 +233,7 @@ namespace Prototype
             txtOutput.Text += "Spring Rolls \n";
             txtPrices.Text += "$5.00\n";
             total += 5.00;
+            totalAmount(total);
         }
 
         private void btnLoadedNachos_Click(object sender, RoutedEventArgs e)
@@ -215,6 +241,7 @@ namespace Prototype
             txtOutput.Text += "Loaded Nachos \n";
             txtPrices.Text += "$6.50\n";
             total += 6.50;
+            totalAmount(total);
         }
 
         private void btnPoutine_Click(object sender, RoutedEventArgs e)
@@ -222,6 +249,7 @@ namespace Prototype
             txtOutput.Text += "Poutine \n";
             txtPrices.Text += "$6.50\n";
             total += 6.50;
+            totalAmount(total);
         }
 
         private void btnChocolateBrownie_Click(object sender, RoutedEventArgs e)
@@ -229,6 +257,7 @@ namespace Prototype
             txtOutput.Text += "Chocolate Brownie \n";
             txtPrices.Text += "$4.50\n";
             total += 4.50;
+            totalAmount(total);
         }
 
         private void btnChurros_Click(object sender, RoutedEventArgs e)
@@ -236,6 +265,7 @@ namespace Prototype
             txtOutput.Text += "Churros \n";
             txtPrices.Text += "$4.50\n";
             total += 4.50;
+            totalAmount(total);
         }
 
         private void btnTiramisuCup_Click(object sender, RoutedEventArgs e)
@@ -243,6 +273,7 @@ namespace Prototype
             txtOutput.Text += "Tiramisu Cup \n";
             txtPrices.Text += "$5.00\n";
             total += 5.00;
+            totalAmount(total);
         }
 
         private void btnMochiIceCream_Click(object sender, RoutedEventArgs e)
@@ -250,6 +281,7 @@ namespace Prototype
             txtOutput.Text += "Mochi Ice Cream \n";
             txtPrices.Text += "$5.00\n";
             total += 5.00;
+            totalAmount(total);
         }
 
         private void btnCremeBrulee_Click(object sender, RoutedEventArgs e)
@@ -257,6 +289,7 @@ namespace Prototype
             txtOutput.Text += "Creme Brulee \n";
             txtPrices.Text += "$6.50\n";
             total += 6.50;
+            totalAmount(total);
         }
 
         private void btnBaklavaBites_Click(object sender, RoutedEventArgs e)
@@ -264,6 +297,7 @@ namespace Prototype
             txtOutput.Text += "Baklava Bites \n";
             txtPrices.Text += "$6.50\n";
             total += 6.50;
+            totalAmount(total);
         }
 
         private void btnMatchaGreenTeaShake_Click(object sender, RoutedEventArgs e)
@@ -271,6 +305,7 @@ namespace Prototype
             txtOutput.Text += "Matcha Green Tea Shake \n";
             txtPrices.Text += "$6.00\n";
             total += 6.00;
+            totalAmount(total);
         }
 
         private void btnChurroCinnamonShake_Click(object sender, RoutedEventArgs e)
@@ -278,6 +313,7 @@ namespace Prototype
             txtOutput.Text += "Churro Cinnamon Shake \n";
             txtPrices.Text += "$6.00\n";
             total += 6.00;
+            totalAmount(total);
         }
 
         private void btnMangoLassiShake_Click(object sender, RoutedEventArgs e)
@@ -285,6 +321,7 @@ namespace Prototype
             txtOutput.Text += "Mango Lassi Shake \n";
             txtPrices.Text += "$6.00\n";
             total += 6.00;
+            totalAmount(total);
         }
 
         private void btnDulceDeLecheShake_Click(object sender, RoutedEventArgs e)
@@ -292,6 +329,7 @@ namespace Prototype
             txtOutput.Text += "Dulce De Leche Shake \n";
             txtPrices.Text += "$6.00\n";
             total += 6.00;
+            totalAmount(total);
         }
 
         private void btnDubaiChocolateShake_Click(object sender, RoutedEventArgs e)
@@ -299,6 +337,7 @@ namespace Prototype
             txtOutput.Text += "Dubai Chocolate Shake \n";
             txtPrices.Text += "$6.00\n";
             total += 6.00;
+            totalAmount(total);
         }
 
         private void btnPandanCoconutShake_Click(object sender, RoutedEventArgs e)
@@ -306,6 +345,7 @@ namespace Prototype
             txtOutput.Text += "Pandan Coconut Shake \n";
             txtPrices.Text += "$6.00\n";
             total += 6.00;
+            totalAmount(total);
         }
 
         private void btnTiramisuShake_Click(object sender, RoutedEventArgs e)
@@ -313,6 +353,7 @@ namespace Prototype
             txtOutput.Text += "Tiramisu Shake \n";
             txtPrices.Text += "$6.00\n";
             total += 6.00;
+            totalAmount(total);
         }
 
         private void btnSmallCoke_Click(object sender, RoutedEventArgs e)
@@ -425,6 +466,11 @@ namespace Prototype
             txtOutput.Text = "";
             txtPrices.Text = "";
             total = 0.0;
+        }
+
+        private void totalAmount(double amount)
+        {
+            txtTotal.Text = total.ToString("C");
         }
 
         /*
