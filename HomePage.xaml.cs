@@ -59,7 +59,6 @@ namespace Prototype
                 totalAmount(total);
 
                 makeCombo.makeMedium = false;
-                makeCombo.Close();
             }
             else if (makeCombo.makeJustBurger == true)
             {
@@ -69,7 +68,6 @@ namespace Prototype
                 totalAmount(total);
 
                 makeCombo.makeJustBurger = false;
-                makeCombo.Close();
             }
             else
             {

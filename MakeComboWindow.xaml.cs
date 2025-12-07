@@ -31,16 +31,19 @@ namespace Prototype
         private void btnLargeCombo_Click(object sender, RoutedEventArgs e)
         {
             makeLarge = true;
+            this.Close();
         }
 
         private void btnMediumCombo_Click(object sender, RoutedEventArgs e)
         {
             makeMedium = true;
+            this.Close();
         }
 
         private void btnJustTheBurger_Click(object sender, RoutedEventArgs e)
         {
             makeJustBurger = true;
+            this.Close();
         }
 
         private void btnCancel_Click(object sender, RoutedEventArgs e)
