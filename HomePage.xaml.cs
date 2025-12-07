@@ -31,10 +31,50 @@ namespace Prototype
 
         private void btnSingleOlympian_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Single Olympian Burger \n";
-            txtPrices.Text += "$12.50\n";
-            total += 12.50;
-            totalAmount(total);
+            makeCombo = new MakeComboWindow();
+            makeCombo.ShowDialog();
+
+            if (makeCombo.makeLarge == true)
+            {
+                txtOutput.Text += "SINGLE OLYMPIAN LARGE COMBO\n" +
+                    "Single Olympian Burger \n" +
+                    "Large Fries \n" +
+                    "Large Drink \n";
+
+                txtPrices.Text += "$20.00\n";
+                total += 20.00;
+                totalAmount(total);
+
+                makeCombo.makeLarge = false;
+            }
+            else if (makeCombo.makeMedium == true)
+            {
+                txtOutput.Text += "SINGLE OLYMPIAN MEDIUM COMBO\n" +
+                    "Single Olympian Burger \n" +
+                    "Large Fries \n" +
+                    "Large Drink \n";
+
+                txtPrices.Text += "$17.50\n";
+                total += 17.50;
+                totalAmount(total);
+
+                makeCombo.makeMedium = false;
+                makeCombo.Close();
+            }
+            else if (makeCombo.makeJustBurger == true)
+            {
+                txtOutput.Text += "Single Olympian Burger \n";
+                txtPrices.Text += "$12.50\n";
+                total += 12.50;
+                totalAmount(total);
+
+                makeCombo.makeJustBurger = false;
+                makeCombo.Close();
+            }
+            else
+            {
+                makeCombo.Close();
+            }
         }
 
         private void btnDoubleOlympian_Click(object sender, RoutedEventArgs e)

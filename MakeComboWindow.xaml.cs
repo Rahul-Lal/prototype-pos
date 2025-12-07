@@ -19,29 +19,43 @@ namespace Prototype
     /// </summary>
     public partial class MakeComboWindow : Window
     {
-        public MakeComboWindow(string burger)
+        public MakeComboWindow()
         {
             InitializeComponent();
         }
 
+        public bool makeLarge = false;
+        public bool makeMedium = false;
+        public bool makeJustBurger = false;
+
         private void btnLargeCombo_Click(object sender, RoutedEventArgs e)
         {
-
+            makeLarge = true;
         }
 
         private void btnMediumCombo_Click(object sender, RoutedEventArgs e)
         {
-
+            makeMedium = true;
         }
 
         private void btnJustTheBurger_Click(object sender, RoutedEventArgs e)
         {
-
+            makeJustBurger = true;
         }
 
         private void btnCancel_Click(object sender, RoutedEventArgs e)
         {
             this.Close();
         }
+
+        //public void makeLarge()
+        //{
+
+        //}
+
+        //public void makeMedium()
+        //{
+
+        //}
     }
 }
