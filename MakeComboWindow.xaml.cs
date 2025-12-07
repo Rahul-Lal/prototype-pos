@@ -19,7 +19,7 @@ namespace Prototype
     /// </summary>
     public partial class MakeComboWindow : Window
     {
-        public MakeComboWindow()
+        public MakeComboWindow(string burger)
         {
             InitializeComponent();
         }
@@ -41,7 +41,7 @@ namespace Prototype
 
         private void btnCancel_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Close();
         }
     }
 }

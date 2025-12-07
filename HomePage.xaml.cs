@@ -25,7 +25,9 @@ namespace Prototype
             InitializeComponent();
         }
 
-        double total = 0.0;
+        public double total = 0.0;
+        MakeComboWindow makeCombo;
+
 
         private void btnSingleOlympian_Click(object sender, RoutedEventArgs e)
         {
