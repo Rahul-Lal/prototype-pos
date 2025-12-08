@@ -126,18 +126,14 @@ namespace Prototype
 
         private void btnOaxaca_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Oaxaca Veggie Burger \n";
-            txtPrices.Text += "$10.50\n";
-            total += 10.50;
-            totalAmount(total);
+            MakeComboWindow makeCombo = new MakeComboWindow();
+            comboOption("Oaxaca Veggie", 10.50);
         }
 
         private void btnBombay_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Bombay Veggie Burger \n";
-            txtPrices.Text += "$12.50\n";
-            total += 12.50;
-            totalAmount(total);
+            MakeComboWindow makeCombo = new MakeComboWindow();
+            comboOption("Bombay Veggie", 12.50);
         }
 
         private void btnNordic_Click(object sender, RoutedEventArgs e)
