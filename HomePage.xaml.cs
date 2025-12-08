@@ -66,18 +66,14 @@ namespace Prototype
 
         private void btnSingleMatador_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Single Matador Burger \n";
-            txtPrices.Text += "$12.50\n";
-            total += 12.50;
-            totalAmount(total);
+            MakeComboWindow makeCombo = new MakeComboWindow();
+            comboOption("Single Matador", 12.50);
         }
 
         private void btnDoubleMatador_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Double Matador Burger \n";
-            txtPrices.Text += "$14.50\n";
-            total += 14.50;
-            totalAmount(total);
+            MakeComboWindow makeCombo = new MakeComboWindow();
+            comboOption("Double Matador", 14.50);
         }
 
         private void btnSingleKaiser_Click(object sender, RoutedEventArgs e)
