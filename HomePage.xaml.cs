@@ -54,18 +54,14 @@ namespace Prototype
 
         private void btnSingleRoma_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Single Roma Burger \n";
-            txtPrices.Text += "$12.50\n";
-            total += 12.50;
-            totalAmount(total);
+            MakeComboWindow makeCombo = new MakeComboWindow();
+            comboOption("Single Roma", 12.50);
         }
 
         private void btnDoubleRoma_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Double Roma Burger \n";
-            txtPrices.Text += "$14.50\n";
-            total += 14.50;
-            totalAmount(total);
+            MakeComboWindow makeCombo = new MakeComboWindow();
+            comboOption("Double Roma", 14.50);
         }
 
         private void btnSingleMatador_Click(object sender, RoutedEventArgs e)
