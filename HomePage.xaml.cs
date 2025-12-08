@@ -138,18 +138,14 @@ namespace Prototype
 
         private void btnNordic_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Nordic Salmon Burger \n";
-            txtPrices.Text += "$12.50\n";
-            total += 12.50;
-            totalAmount(total);
+            MakeComboWindow makeCombo = new MakeComboWindow();
+            comboOption("Nordic Salmon", 12.50);
         }
 
         private void btnHavana_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Havana Fish Burger \n";
-            txtPrices.Text += "$12.50\n";
-            total += 12.50;
-            totalAmount(total);
+            MakeComboWindow makeCombo = new MakeComboWindow();
+            comboOption("Havana Fish", 12.50);
         }
 
         private void btnSmallFries_Click(object sender, RoutedEventArgs e)
