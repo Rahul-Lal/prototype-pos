@@ -5,7 +5,7 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Prototype"
       mc:Ignorable="d" MaxHeight="1080" Height="1080" MaxWidth="1920"
-      Title="EuropeanBurgers" Background="#FF3F7A8E">
+      Title="Burger National" Background="#FF3F7A8E">
 
 
     <!--

@@ -25,78 +25,31 @@ namespace Prototype
             InitializeComponent();
         }
 
-        public double total = 0.0;
-        MakeComboWindow makeCombo;
+        public double total = 0.00;
 
 
         private void btnSingleOlympian_Click(object sender, RoutedEventArgs e)
         {
-            makeCombo = new MakeComboWindow();
-            makeCombo.ShowDialog();
-
-            if (makeCombo.makeLarge == true)
-            {
-                txtOutput.Text += "SINGLE OLYMPIAN LARGE COMBO\n" +
-                    "Single Olympian Burger \n" +
-                    "Large Fries \n" +
-                    "Large Drink \n";
-
-                txtPrices.Text += "$20.00\n\n\n\n";
-                total += 20.00;
-                totalAmount(total);
-
-                makeCombo.makeLarge = false;
-            }
-            else if (makeCombo.makeMedium == true)
-            {
-                txtOutput.Text += "SINGLE OLYMPIAN MEDIUM COMBO\n" +
-                    "Single Olympian Burger \n" +
-                    "Large Fries \n" +
-                    "Large Drink \n";
-
-                txtPrices.Text += "$17.50\n\n\n\n";
-                total += 17.50;
-                totalAmount(total);
-
-                makeCombo.makeMedium = false;
-            }
-            else if (makeCombo.makeJustBurger == true)
-            {
-                txtOutput.Text += "Single Olympian Burger \n";
-                txtPrices.Text += "$12.50\n";
-                total += 12.50;
-                totalAmount(total);
-
-                makeCombo.makeJustBurger = false;
-            }
-            else
-            {
-                makeCombo.Close();
-            }
+            MakeComboWindow makeCombo = new MakeComboWindow();
+            comboOption("Single Olympian", 12.50);
         }
 
         private void btnDoubleOlympian_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Double Olympian Burger \n";
-            txtPrices.Text += "$14.50\n";
-            total += 14.50;
-            totalAmount(total);
+            MakeComboWindow makeCombo = new MakeComboWindow();
+            comboOption("Double Olympian", 14.50);
         }
 
         private void btnSingleParisian_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Single Parisian Burger \n";
-            txtPrices.Text += "$12.50\n";
-            total += 12.50;
-            totalAmount(total);
+            MakeComboWindow makeCombo = new MakeComboWindow();
+            comboOption("Single Parisian", 12.50);
         }
 
         private void btnDoubleParisian_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Double Parisian Burger \n";
-            txtPrices.Text += "$14.50\n";
-            total += 14.50;
-            totalAmount(total);
+            MakeComboWindow makeCombo = new MakeComboWindow();
+            comboOption("Double Parisian", 14.50);
         }
 
         private void btnSingleRoma_Click(object sender, RoutedEventArgs e)
@@ -586,5 +539,54 @@ namespace Prototype
                 total += 0.00;
             }
          */
+
+        private void comboOption(string burger, double price)
+        {
+            MakeComboWindow makeCombo = new MakeComboWindow();
+            makeCombo.ShowDialog();
+
+                if (makeCombo.makeLarge == true)
+                {
+                    txtOutput.Text += burger.ToUpper() + " LARGE COMBO\n" +
+                        burger + " Burger \n" +
+                        "Large Fries \n" +
+                        "Large Drink \n";
+
+                    txtPrices.Text +=  (price + 7.5).ToString() + ".00\n\n\n\n";
+                    total += price + 7.5;
+                    totalAmount(total);
+
+                    makeCombo.makeLarge = false;
+                    makeCombo.Close();
+                }
+                else if (makeCombo.makeMedium == true)
+                {
+                    txtOutput.Text += burger.ToUpper() + " MEDIUM COMBO\n" +
+                        burger + " Burger \n" +
+                        "Medium Fries \n" +
+                        "Medium Drink \n";
+
+                    txtPrices.Text += (price + 5).ToString() + "0\n\n\n\n";
+                    total += price + 5;
+                    totalAmount(total);
+
+                    makeCombo.makeMedium = false;
+                    makeCombo.Close();
+                }
+                else if (makeCombo.makeJustBurger == true)
+                {
+                    txtOutput.Text += burger + " Burger \n";
+                    txtPrices.Text += price + "0\n";
+                    total += price;
+                    totalAmount(total);
+
+                    makeCombo.makeJustBurger = false;
+                    makeCombo.Close();
+                }
+                else
+                {
+                    makeCombo.Close();
+                }
+        }
     }
 }
