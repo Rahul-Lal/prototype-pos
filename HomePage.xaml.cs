@@ -41,7 +41,7 @@ namespace Prototype
                     "Large Fries \n" +
                     "Large Drink \n";
 
-                txtPrices.Text += "$20.00\n";
+                txtPrices.Text += "$20.00\n\n\n\n";
                 total += 20.00;
                 totalAmount(total);
 
@@ -54,7 +54,7 @@ namespace Prototype
                     "Large Fries \n" +
                     "Large Drink \n";
 
-                txtPrices.Text += "$17.50\n";
+                txtPrices.Text += "$17.50\n\n\n\n";
                 total += 17.50;
                 totalAmount(total);
 
