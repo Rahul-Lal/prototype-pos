@@ -78,66 +78,50 @@ namespace Prototype
 
         private void btnSingleKaiser_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Single Kaiser Burger \n";
-            txtPrices.Text += "$12.50\n";
-            total += 12.50;
-            totalAmount(total);
+            MakeComboWindow makeCombo = new MakeComboWindow();
+            comboOption("Single Kaiser", 12.50);
         }
 
         private void btnDoubleKaiser_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Double Kaiser Burger \n";
-            txtPrices.Text += "$14.50\n";
-            total += 14.50;
-            totalAmount(total);
+            MakeComboWindow makeCombo = new MakeComboWindow();
+            comboOption("Double Kaiser", 14.50);
         }
 
         private void btnNashvilleHot_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Nashville Hot Chicken Burger \n";
-            txtPrices.Text += "$10.50\n";
-            total += 10.50;
-            totalAmount(total);
+            MakeComboWindow makeCombo = new MakeComboWindow();
+            comboOption("Nashville Hot", 10.50);
         }
 
         private void btnKyotoKatsu_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Kyoto Katsu Chicken Burger \n";
-            txtPrices.Text += "$12.50\n";
-            total += 12.50;
-            totalAmount(total);
+            MakeComboWindow makeCombo = new MakeComboWindow();
+            comboOption("Kyoto Katsu", 12.50);
         }
 
         private void btnMarrakesh_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Marrakesh Chicken Burger \n";
-            txtPrices.Text += "$14.50\n";
-            total += 14.50;
-            totalAmount(total);
+            MakeComboWindow makeCombo = new MakeComboWindow();
+            comboOption("Marrakesh Chicken", 14.50);
         }
 
         private void btnBaja_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Baja Chicken Burger \n";
-            txtPrices.Text += "$14.50\n";
-            total += 14.50;
-            totalAmount(total);
+            MakeComboWindow makeCombo = new MakeComboWindow();
+            comboOption("Baja Chicken", 14.50);
         }
 
         private void btnSeoulFire_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Seoul Fire Chicken Burger \n";
-            txtPrices.Text += "$14.50\n";
-            total += 14.50;
-            totalAmount(total);
+            MakeComboWindow makeCombo = new MakeComboWindow();
+            comboOption("Seoul Fire", 14.50);
         }
 
         private void btnBangkokSatay_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Bangkok Satay Chicken Burger \n";
-            txtPrices.Text += "$14.50\n";
-            total += 14.50;
-            totalAmount(total);
+            MakeComboWindow makeCombo = new MakeComboWindow();
+            comboOption("Bangkok Satay Chicken", 12.50);
         }
 
         private void btnOaxaca_Click(object sender, RoutedEventArgs e)
