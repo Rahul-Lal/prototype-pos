@@ -264,10 +264,8 @@ namespace Prototype
 
         private void btnCokeNS_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Small Coke No Sugar \n";
-            txtPrices.Text += "$2.50\n";
-            total += 2.50;
-            totalAmount(total);
+            setDrinkSize();
+            txtOutput.Text += "Coke No Sugar \n";
         }
 
         private void btnJarritos_Click(object sender, RoutedEventArgs e)
