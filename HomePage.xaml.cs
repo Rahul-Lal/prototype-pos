@@ -27,7 +27,6 @@ namespace Prototype
 
         public double total = 0.00;
 
-
         private void btnSingleOlympian_Click(object sender, RoutedEventArgs e)
         {
             MakeComboWindow makeCombo = new MakeComboWindow();
@@ -205,42 +204,27 @@ namespace Prototype
 
         private void btnMochiIceCream_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Mochi Ice Cream \n";
-            txtPrices.Text += "$5.00\n";
-            total += 5.00;
-            totalAmount(total);
+            printMenuItem("Mochi Ice Cream", 5.0);
         }
 
         private void btnCremeBrulee_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Creme Brulee \n";
-            txtPrices.Text += "$6.50\n";
-            total += 6.50;
-            totalAmount(total);
+            printMenuItem("Creme Brulee", 6.5);
         }
 
         private void btnBaklavaBites_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Baklava Bites \n";
-            txtPrices.Text += "$6.50\n";
-            total += 6.50;
-            totalAmount(total);
+            printMenuItem("Baklava Bites", 6.5);
         }
 
         private void btnMatchaGreenTeaShake_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Matcha Green Tea Shake \n";
-            txtPrices.Text += "$6.00\n";
-            total += 6.00;
-            totalAmount(total);
+            printMenuItem("Matcha Green Tea Shake", 6.0);
         }
 
         private void btnChurroCinnamonShake_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Churro Cinnamon Shake \n";
-            txtPrices.Text += "$6.00\n";
-            total += 6.00;
-            totalAmount(total);
+            printMenuItem("Churro Cinnamon Shake", 6.0);
         }
 
         private void btnMangoLassiShake_Click(object sender, RoutedEventArgs e)
