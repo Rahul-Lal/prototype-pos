@@ -276,10 +276,8 @@ namespace Prototype
 
         private void btnIrnBru_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Small Irn Bru \n";
-            txtPrices.Text += "$2.50\n";
-            total += 2.50;
-            totalAmount(total);
+            setDrinkSize();
+            txtOutput.Text += "Irn Bru\n";
         }
 
         private void btnLnP_Click(object sender, RoutedEventArgs e)
