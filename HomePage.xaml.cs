@@ -288,10 +288,8 @@ namespace Prototype
 
         private void btnSparletta_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Small Sparletta \n";
-            txtPrices.Text += "$2.50\n";
-            total += 2.50;
-            totalAmount(total);
+            setDrinkSize();
+            txtOutput.Text += "Sparletta\n";
         }
 
         private void btnTing_Click(object sender, RoutedEventArgs e)
