@@ -282,10 +282,8 @@ namespace Prototype
 
         private void btnLnP_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Small L&P \n";
-            txtPrices.Text += "$2.50\n";
-            total += 2.50;
-            totalAmount(total);
+            setDrinkSize();
+            txtOutput.Text += "L&P\n";
         }
 
         private void btnSparletta_Click(object sender, RoutedEventArgs e)
