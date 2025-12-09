@@ -294,10 +294,8 @@ namespace Prototype
 
         private void btnTing_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Small Ting \n";
-            txtPrices.Text += "$2.50\n";
-            total += 2.50;
-            totalAmount(total);
+            setDrinkSize();
+            txtOutput.Text += "Ting\n";
         }
 
         private void btnClearOrder_Click(object sender, RoutedEventArgs e)
