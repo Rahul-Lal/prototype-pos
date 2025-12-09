@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace Prototype
 {
     /// <summary>
-    /// Interaction logic for EuropeanBurgers.xaml
+    /// Interaction logic for HomePage.xaml
     /// </summary>
-    public partial class EuropeanBurgers : Page
+    public partial class HomePage : Page
     {
-        public EuropeanBurgers()
+        public HomePage()
         {
             InitializeComponent();
         }
@@ -150,91 +150,57 @@ namespace Prototype
 
         private void btnSmallFries_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Small Fries \n";
-            txtPrices.Text += "$3.00\n";
-            total += 3.00;
-            totalAmount(total);
-
+            printMenuItem("Small Fries", 3.0);
         }
 
         private void btnMediumFries_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Medium Fires \n";
-            txtPrices.Text += "$4.50\n";
-            total += 4.50;
-            totalAmount(total);
+            printMenuItem("Medium Fries", 4.5);
         }
 
         private void btnLargeFries_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Large Fries \n";
-            txtPrices.Text += "$5.00\n";
-            total += 5.00;
-            totalAmount(total);
+            printMenuItem("Large Fries", 5.0);
         }
 
         private void btnGarlicBread_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Garlic Bread \n";
-            txtPrices.Text += "$4.50\n";
-            total += 4.50;
-            totalAmount(total);
+            printMenuItem("Garlic Bread", 4.5);
         }
 
         private void btnMozzarellaStick_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Mozzarella Sticks \n";
-            txtPrices.Text += "$5.00\n";
-            total += 5.00;
-            totalAmount(total);
+            printMenuItem("Mozzarella Sticks", 5.0);
         }
 
         private void btnSpringRoll_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Spring Rolls \n";
-            txtPrices.Text += "$5.00\n";
-            total += 5.00;
-            totalAmount(total);
+            printMenuItem("Spring Rolls", 5.0);
         }
 
         private void btnLoadedNachos_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Loaded Nachos \n";
-            txtPrices.Text += "$6.50\n";
-            total += 6.50;
-            totalAmount(total);
+            printMenuItem("Loaded Nachos", 6.5);
         }
 
         private void btnPoutine_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Poutine \n";
-            txtPrices.Text += "$6.50\n";
-            total += 6.50;
-            totalAmount(total);
+            printMenuItem("Poutine", 6.5);
         }
 
         private void btnChocolateBrownie_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Chocolate Brownie \n";
-            txtPrices.Text += "$4.50\n";
-            total += 4.50;
-            totalAmount(total);
+            printMenuItem("Chocolate Brownie", 4.5);
         }
 
         private void btnChurros_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Churros \n";
-            txtPrices.Text += "$4.50\n";
-            total += 4.50;
-            totalAmount(total);
+            printMenuItem("Churros", 4.5);
         }
 
         private void btnTiramisuCup_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Tiramisu Cup \n";
-            txtPrices.Text += "$5.00\n";
-            total += 5.00;
-            totalAmount(total);
+            printMenuItem("Tiramisu Cup", 5.0);
         }
 
         private void btnMochiIceCream_Click(object sender, RoutedEventArgs e)
@@ -520,7 +486,7 @@ namespace Prototype
                         "Large Fries \n" +
                         "Large Drink \n";
 
-                    txtPrices.Text +=  (price + 7.5).ToString() + ".00\n\n\n\n";
+                    txtPrices.Text += "$" + (price + 7.5).ToString() + ".00\n\n\n\n";
                     total += price + 7.5;
                     totalAmount(total);
 
@@ -534,7 +500,7 @@ namespace Prototype
                         "Medium Fries \n" +
                         "Medium Drink \n";
 
-                    txtPrices.Text += (price + 5).ToString() + "0\n\n\n\n";
+                    txtPrices.Text += "$" + (price + 5).ToString() + "0\n\n\n\n";
                     total += price + 5;
                     totalAmount(total);
 
@@ -544,7 +510,7 @@ namespace Prototype
                 else if (makeCombo.makeJustBurger == true)
                 {
                     txtOutput.Text += burger + " Burger \n";
-                    txtPrices.Text += price + "0\n";
+                    txtPrices.Text += "$" + price + "0\n";
                     total += price;
                     totalAmount(total);
 
@@ -555,6 +521,21 @@ namespace Prototype
                 {
                     makeCombo.Close();
                 }
+        }
+
+        private void printMenuItem(string menuItem, double price)
+        {
+            txtOutput.Text += menuItem.ToString() + "\n";
+
+            if (price % 1 != 0)
+            {
+                txtPrices.Text += "$" + price.ToString() + "0\n";
+            }
+            else {
+                txtPrices.Text += "$" + price.ToString() + ".00\n";
+            }
+            total += price;
+            totalAmount(total);
         }
     }
 }
