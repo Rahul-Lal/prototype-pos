@@ -270,10 +270,8 @@ namespace Prototype
 
         private void btnJarritos_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Small Jarritos \n";
-            txtPrices.Text += "$2.50\n";
-            total += 2.50;
-            totalAmount(total);
+            setDrinkSize();
+            txtOutput.Text += "Jarritos \n";
         }
 
         private void btnIrnBru_Click(object sender, RoutedEventArgs e)
