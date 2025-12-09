@@ -25,6 +25,10 @@ namespace Prototype
             InitializeComponent();
         }
 
+        bool isDrinkSmall = false;
+        bool isDrinkMedium = false;
+        bool isDrinkLarge = false;
+
         public double total = 0.00;
 
         private void btnSingleOlympian_Click(object sender, RoutedEventArgs e)
@@ -252,15 +256,13 @@ namespace Prototype
             printMenuItem("Tiramisu Shake", 6.0);
         }
 
-        private void btnSmallCoke_Click(object sender, RoutedEventArgs e)
+        private void btnCoke_Click(object sender, RoutedEventArgs e)
         {
-            txtOutput.Text += "Small Coke \n";
-            txtPrices.Text += "$2.50\n";
-            total += 2.50;
-            totalAmount(total);
+            setDrinkSize();
+            txtOutput.Text += "Coke\n";
         }
 
-        private void btnSmallCokeNS_Click(object sender, RoutedEventArgs e)
+        private void btnCokeNS_Click(object sender, RoutedEventArgs e)
         {
             txtOutput.Text += "Small Coke No Sugar \n";
             txtPrices.Text += "$2.50\n";
@@ -268,23 +270,7 @@ namespace Prototype
             totalAmount(total);
         }
 
-        private void btnMediumCokeNS_Click(object sender, RoutedEventArgs e)
-        {
-            txtOutput.Text += "Medium Coke No Sugar \n";
-            txtPrices.Text += "$3.50\n";
-            total += 3.50;
-            totalAmount(total);
-        }
-
-        private void btnLargeCokeNS_Click(object sender, RoutedEventArgs e)
-        {
-            txtOutput.Text += "Large Coke No Sugar \n";
-            txtPrices.Text += "$4.50\n";
-            total += 4.50;
-            totalAmount(total);
-        }
-
-        private void btnSmallJarritos_Click(object sender, RoutedEventArgs e)
+        private void btnJarritos_Click(object sender, RoutedEventArgs e)
         {
             txtOutput.Text += "Small Jarritos \n";
             txtPrices.Text += "$2.50\n";
@@ -292,39 +278,7 @@ namespace Prototype
             totalAmount(total);
         }
 
-        private void btnLargeCoke_Click(object sender, RoutedEventArgs e)
-        {
-            txtOutput.Text += "Small Coke \n";
-            txtPrices.Text += "$4.50\n";
-            total += 4.50;
-            totalAmount(total);
-        }
-
-        private void btnMediumCoke_Click(object sender, RoutedEventArgs e)
-        {
-            txtOutput.Text += "Medium Coke \n";
-            txtPrices.Text += "$3.50\n";
-            total += 3.50;
-            totalAmount(total);
-        }
-
-        private void btnMediumJarritos_Click(object sender, RoutedEventArgs e)
-        {
-            txtOutput.Text += "Medium Jarritos \n";
-            txtPrices.Text += "$3.50\n";
-            total += 3.50;
-            totalAmount(total);
-        }
-
-        private void btnLargeJarritos_Click(object sender, RoutedEventArgs e)
-        {
-            txtOutput.Text += "Large Jarritos \n";
-            txtPrices.Text += "$4.50\n";
-            total += 4.50;
-            totalAmount(total);
-        }
-
-        private void btnSmallIrnBru_Click(object sender, RoutedEventArgs e)
+        private void btnIrnBru_Click(object sender, RoutedEventArgs e)
         {
             txtOutput.Text += "Small Irn Bru \n";
             txtPrices.Text += "$2.50\n";
@@ -332,23 +286,7 @@ namespace Prototype
             totalAmount(total);
         }
 
-        private void btnMediumIrnBru_Click(object sender, RoutedEventArgs e)
-        {
-            txtOutput.Text += "Medium Irn Bru \n";
-            txtPrices.Text += "$3.50\n";
-            total += 3.50;
-            totalAmount(total);
-        }
-
-        private void btnLargeIrnBru_Click(object sender, RoutedEventArgs e)
-        {
-            txtOutput.Text += "Large Irn Bru \n";
-            txtPrices.Text += "$4.50\n";
-            total += 4.50;
-            totalAmount(total);
-        }
-
-        private void btnSmallLnP_Click(object sender, RoutedEventArgs e)
+        private void btnLnP_Click(object sender, RoutedEventArgs e)
         {
             txtOutput.Text += "Small L&P \n";
             txtPrices.Text += "$2.50\n";
@@ -356,23 +294,7 @@ namespace Prototype
             totalAmount(total);
         }
 
-        private void btnMediumLnP_Click(object sender, RoutedEventArgs e)
-        {
-            txtOutput.Text += "Medium L&P \n";
-            txtPrices.Text += "$3.50\n";
-            total += 3.50;
-            totalAmount(total);
-        }
-
-        private void btnLargeLnP_Click(object sender, RoutedEventArgs e)
-        {
-            txtOutput.Text += "Large L&P \n";
-            txtPrices.Text += "$4.50\n";
-            total += 4.50;
-            totalAmount(total);
-        }
-
-        private void btnSmallSparletta_Click(object sender, RoutedEventArgs e)
+        private void btnSparletta_Click(object sender, RoutedEventArgs e)
         {
             txtOutput.Text += "Small Sparletta \n";
             txtPrices.Text += "$2.50\n";
@@ -380,43 +302,11 @@ namespace Prototype
             totalAmount(total);
         }
 
-        private void btnMediumSparletta_Click(object sender, RoutedEventArgs e)
-        {
-            txtOutput.Text += "Medium Sparletta \n";
-            txtPrices.Text += "$3.50\n";
-            total += 3.50;
-            totalAmount(total);
-        }
-
-        private void btnLargeSparletta_Click(object sender, RoutedEventArgs e)
-        {
-            txtOutput.Text += "Large Sparletta \n";
-            txtPrices.Text += "$4.50\n";
-            total += 4.50;
-            totalAmount(total);
-        }
-
-        private void btnSmallTing_Click(object sender, RoutedEventArgs e)
+        private void btnTing_Click(object sender, RoutedEventArgs e)
         {
             txtOutput.Text += "Small Ting \n";
             txtPrices.Text += "$2.50\n";
             total += 2.50;
-            totalAmount(total);
-        }
-
-        private void btnMediumTing_Click(object sender, RoutedEventArgs e)
-        {
-            txtOutput.Text += "Medium Ting \n";
-            txtPrices.Text += "$3.50\n";
-            total += 3.50;
-            totalAmount(total);
-        }
-
-        private void btnLargeTing_Click(object sender, RoutedEventArgs e)
-        {
-            txtOutput.Text += "Large Ting \n";
-            txtPrices.Text += "$4.50\n";
-            total += 4.50;
             totalAmount(total);
         }
 
@@ -448,48 +338,48 @@ namespace Prototype
             MakeComboWindow makeCombo = new MakeComboWindow();
             makeCombo.ShowDialog();
 
-                if (makeCombo.makeLarge == true)
-                {
-                    txtOutput.Text += burger.ToUpper() + " LARGE COMBO\n" +
-                        burger + " Burger \n" +
-                        "Large Fries \n" +
-                        "Large Drink \n";
+            if (makeCombo.makeLarge == true)
+            {
+                txtOutput.Text += burger.ToUpper() + " LARGE COMBO\n" +
+                    burger + " Burger \n" +
+                    "Large Fries \n" +
+                    "Large Drink \n";
 
-                    txtPrices.Text += "$" + (price + 7.5).ToString() + ".00\n\n\n\n";
-                    total += price + 7.5;
-                    totalAmount(total);
+                txtPrices.Text += "$" + (price + 7.5).ToString() + ".00\n\n\n\n";
+                total += price + 7.5;
+                totalAmount(total);
 
-                    makeCombo.makeLarge = false;
-                    makeCombo.Close();
-                }
-                else if (makeCombo.makeMedium == true)
-                {
-                    txtOutput.Text += burger.ToUpper() + " MEDIUM COMBO\n" +
-                        burger + " Burger \n" +
-                        "Medium Fries \n" +
-                        "Medium Drink \n";
+                makeCombo.makeLarge = false;
+                makeCombo.Close();
+            }
+            else if (makeCombo.makeMedium == true)
+            {
+                txtOutput.Text += burger.ToUpper() + " MEDIUM COMBO\n" +
+                    burger + " Burger \n" +
+                    "Medium Fries \n" +
+                    "Medium Drink \n";
 
-                    txtPrices.Text += "$" + (price + 5).ToString() + "0\n\n\n\n";
-                    total += price + 5;
-                    totalAmount(total);
+                txtPrices.Text += "$" + (price + 5).ToString() + "0\n\n\n\n";
+                total += price + 5;
+                totalAmount(total);
 
-                    makeCombo.makeMedium = false;
-                    makeCombo.Close();
-                }
-                else if (makeCombo.makeJustBurger == true)
-                {
-                    txtOutput.Text += burger + " Burger \n";
-                    txtPrices.Text += "$" + price + "0\n";
-                    total += price;
-                    totalAmount(total);
+                makeCombo.makeMedium = false;
+                makeCombo.Close();
+            }
+            else if (makeCombo.makeJustBurger == true)
+            {
+                txtOutput.Text += burger + " Burger \n";
+                txtPrices.Text += "$" + price + "0\n";
+                total += price;
+                totalAmount(total);
 
-                    makeCombo.makeJustBurger = false;
-                    makeCombo.Close();
-                }
-                else
-                {
-                    makeCombo.Close();
-                }
+                makeCombo.makeJustBurger = false;
+                makeCombo.Close();
+            }
+            else
+            {
+                makeCombo.Close();
+            }
         }
 
         private void printMenuItem(string menuItem, double price)
@@ -500,11 +390,55 @@ namespace Prototype
             {
                 txtPrices.Text += "$" + price.ToString() + "0\n";
             }
-            else {
+            else
+            {
                 txtPrices.Text += "$" + price.ToString() + ".00\n";
             }
             total += price;
             totalAmount(total);
+        }
+
+        private void btnMediumDrink_Click(object sender, RoutedEventArgs e)
+        {
+            isDrinkMedium = true;
+        }
+
+        private void btnSmallDrink_Click(object sender, RoutedEventArgs e)
+        {
+            isDrinkSmall = true;
+        }
+
+        private void btnLargeDrink_Click(object sender, RoutedEventArgs e)
+        {
+            isDrinkLarge = true;
+        }
+
+        private void setDrinkSize()
+        {
+            if (isDrinkSmall)
+            {
+                txtOutput.Text += "Small ";
+                txtPrices.Text += "$2.50\n";
+                total += 2.50;
+                totalAmount(total);
+                isDrinkSmall = false;
+            }
+            else if (isDrinkMedium)
+            {
+                txtOutput.Text += "Medium ";
+                txtPrices.Text += "$3.50\n";
+                total += 3.50;
+                totalAmount(total);
+                isDrinkMedium = false;
+            }
+            else if (isDrinkLarge)
+            {
+                txtOutput.Text += "Large ";
+                txtPrices.Text += "$4.50\n";
+                total += 4.50;
+                totalAmount(total);
+                isDrinkLarge = false;
+            }
         }
     }
 }

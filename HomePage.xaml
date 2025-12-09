@@ -21,7 +21,7 @@
          ScrollViewer.VerticalScrollBarVisibility="Auto"  />
 
         <TabControl Margin="421,0,0,167" HorizontalAlignment="Left" Width="1920">
-            <TabItem x:Name="btnEuropeanBurger" Header="European Burger" Width="250" Height="100" FontSize="16" HorizontalAlignment="Right" Margin="0,-1,0,1">
+            <TabItem x:Name="btnEuropeanBurger" Header="European Burger" Width="250" Height="100" FontSize="16" HorizontalAlignment="Center" Margin="0,1,0,-1">
                 <Grid HorizontalAlignment="Left" Width="1498" Height="818" VerticalAlignment="Center">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="1*"/>
@@ -194,111 +194,45 @@
                         <ColumnDefinition Width="300*"/>
                     </Grid.ColumnDefinitions>
 
-                    <Button x:Name="btnSmallCoke" Content="Coke (Small)" Width="200" Height="250" FontSize="30" HorizontalContentAlignment="Center" HorizontalAlignment="Center" Click="btnSmallCoke_Click" VerticalAlignment="Center" FontWeight="Bold" FontFamily="Agency FB" VerticalContentAlignment="Center">
+                    <Button x:Name="btnCoke" Content="Coke" Width="200" Height="257" FontSize="30" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Click="btnCoke_Click" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Agency FB" VerticalContentAlignment="Center" Margin="10,2,0,0" Grid.Row="1">
                         <Button.Background>
                             <ImageBrush ImageSource="/Coca-Cola.jpg" Opacity="0.33"/>
                         </Button.Background>
                     </Button>
-                    <Button x:Name="btnMediumCoke" Content="Coke (Medium)" Width="200" Height="250" FontSize="30" HorizontalAlignment="Center" Click="btnMediumCoke_Click" Grid.Column="1" VerticalAlignment="Center" FontFamily="Agency FB" FontWeight="Bold">
-                        <Button.Background>
-                            <ImageBrush ImageSource="/Coca-Cola.jpg" Opacity="0.33"/>
-                        </Button.Background>
-                    </Button>
-                    <Button x:Name="btnLargeCoke" Content="Coke (Large)" Width="200" Height="250" FontSize="30" HorizontalAlignment="Center" Click="btnLargeCoke_Click" RenderTransformOrigin="-0.356,0.981" Grid.Column="2" VerticalAlignment="Center" FontWeight="Bold" FontFamily="Agency FB">
-                        <Button.Background>
-                            <ImageBrush ImageSource="/Coca-Cola.jpg" Opacity="0.33"/>
-                        </Button.Background>
-                    </Button>
-                    <Button x:Name="btnSmallCokeNS" Content="Coke NS (Small)" Width="200" Height="250" FontSize="30"  HorizontalAlignment="Center" Click="btnSmallCokeNS_Click" Grid.Column="3" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Agency FB" FontWeight="Bold" VerticalAlignment="Center" Margin="10,0,0,0">
+                    <Button x:Name="btnCokeNS" Content="Coke NS" Width="200" Height="257" FontSize="30" HorizontalAlignment="Left" Click="btnCokeNS_Click" RenderTransformOrigin="0.5,0.5" Grid.Column="1" VerticalAlignment="Top" FontFamily="Agency FB" FontWeight="Bold" HorizontalContentAlignment="Center" Margin="4,2,0,0" Grid.Row="1">
                         <Button.Background>
                             <ImageBrush ImageSource="/CokeNS.jpg" Opacity="0.33"/>
                         </Button.Background>
                     </Button>
-                    <Button x:Name="btnMediumCokeNS" Content="Coke NS (Medium)" Width="200" Height="250" FontSize="30" HorizontalAlignment="Center" Click="btnMediumCokeNS_Click" Grid.Column="4" Margin="10,0,0,0" VerticalAlignment="Center" FontFamily="Agency FB" FontWeight="Bold">
-                        <Button.Background>
-                            <ImageBrush ImageSource="/CokeNS.jpg" Opacity="0.33"/>
-                        </Button.Background>
-                    </Button>
-                    <Button x:Name="btnLargeCokeNS" Content="Coke NS (Large)" Width="200" Height="250" FontSize="30" HorizontalAlignment="Center" Click="btnLargeCokeNS_Click" RenderTransformOrigin="0.5,0.5" Grid.Column="5" VerticalAlignment="Center" FontFamily="Agency FB" FontWeight="Bold" HorizontalContentAlignment="Center">
-                        <Button.Background>
-                            <ImageBrush ImageSource="/CokeNS.jpg" Opacity="0.33"/>
-                        </Button.Background>
-                    </Button>
-                    <Button x:Name="btnSmallJarritos" Content="Jarritos (Small)" Width="200" Height="250" FontSize="30" HorizontalAlignment="Center" Click="btnSmallJarritos_Click" Grid.Column="6" VerticalAlignment="Center" FontFamily="Agency FB" FontWeight="Bold">
+                    <Button x:Name="btnJarritos" Content="Jarritos" Width="200" Height="257" FontSize="30" HorizontalAlignment="Left" Click="btnJarritos_Click" Grid.Column="2" VerticalAlignment="Top" FontFamily="Agency FB" FontWeight="Bold" Margin="4,2,0,0" Grid.Row="1">
                         <Button.Background>
                             <ImageBrush ImageSource="/Jarritos.jpg" Opacity="0.33"/>
                         </Button.Background>
                     </Button>
-                    <Button x:Name="btnMediumJarritos" Content="Jarritos (Medium)" Width="200" Height="250" FontSize="30" HorizontalAlignment="Center" Click="btnMediumJarritos_Click" Grid.Row="1" Margin="0,3,0,0" VerticalAlignment="Center" FontFamily="Agency FB" FontWeight="Bold">
-                        <Button.Background>
-                            <ImageBrush ImageSource="/Jarritos.jpg" Opacity="0.33"/>
-                        </Button.Background>
-                    </Button>
-                    <Button x:Name="btnLargeJarritos" Content="Jarritos (Large)" Height="250" FontSize="30" Margin="0,10,0,0" Click="btnLargeJarritos_Click" HorizontalAlignment="Center" Width="200" RenderTransformOrigin="0.167,0.55" Grid.Column="1" Grid.Row="1" VerticalAlignment="Center" FontFamily="Agency FB" FontWeight="Bold">
-                        <Button.Background>
-                            <ImageBrush ImageSource="/Jarritos.jpg" Opacity="0.33"/>
-                        </Button.Background>
-                    </Button>
-                    <Button x:Name="btnSmallIrnBru" Content="Irn Bru (Small)" Width="200" Height="250" FontSize="30" Margin="10,14,0,0" HorizontalAlignment="Left" Click="btnSmallIrnBru_Click" Grid.Column="2" Grid.Row="1" VerticalAlignment="Top" FontFamily="Agency FB" FontWeight="Bold">
+                    <Button x:Name="btnIrnBru" Content="Irn Bru" Width="200" Height="257" FontSize="30" HorizontalAlignment="Left" Click="btnIrnBru_Click" Grid.Column="3" VerticalAlignment="Top" FontFamily="Agency FB" FontWeight="Bold" Margin="4,2,0,0" Grid.Row="1">
                         <Button.Background>
                             <ImageBrush ImageSource="/IrnBru.jpg" Opacity="0.33"/>
                         </Button.Background>
                     </Button>
-                    <Button x:Name="btnMediumIrnBru" Content="Irn Bru (Medium)" Width="200" Height="250" FontSize="30" HorizontalAlignment="Left" Click="btnMediumIrnBru_Click" Grid.Column="3" Grid.Row="1" VerticalAlignment="Top" FontFamily="Agency FB" FontWeight="Bold" Margin="12,17,0,0">
-                        <Button.Background>
-                            <ImageBrush ImageSource="/IrnBru.jpg" Opacity="0.33"/>
-                        </Button.Background>
-                    </Button>
-                    <Button x:Name="btnLargeIrnBru" Content="Irn Bru (Large)" Width="200" Height="250" FontSize="30" Margin="0,10,0,0" HorizontalAlignment="Center" Click="btnLargeIrnBru_Click" Grid.Row="1" Grid.Column="4" VerticalAlignment="Center" FontFamily="Agency FB" FontWeight="Bold">
-                        <Button.Background>
-                            <ImageBrush ImageSource="/IrnBru.jpg" Opacity="0.33"/>
-                        </Button.Background>
-                    </Button>
-                    <Button x:Name="btnSmallLnP" Content="LnP (Small)" Width="200" Height="250" FontSize="30" HorizontalAlignment="Center" Click="btnSmallLnP_Click" RenderTransformOrigin="0.567,0.123" Grid.Row="1" Grid.Column="5" VerticalAlignment="Top" FontFamily="Agency FB" FontWeight="Bold" Margin="0,15,0,0">
+                    <Button x:Name="btnLnP" Content="LnP" Width="200" Height="259" FontSize="30" HorizontalAlignment="Center" Click="btnLnP_Click" RenderTransformOrigin="0.567,0.123" Grid.Column="4" VerticalAlignment="Top" FontFamily="Agency FB" FontWeight="Bold" Margin="0,2,0,0" Grid.Row="1">
                         <Button.Background>
                             <ImageBrush ImageSource="/LnP.jpg" Opacity="0.33"/>
                         </Button.Background>
                     </Button>
-                    <Button x:Name="btnMediumLnP" Content="LnP (Medium)" Width="200" Height="250" FontSize="30" Margin="0,9,0,0" HorizontalAlignment="Center" Click="btnMediumLnP_Click" RenderTransformOrigin="0.567,0.123" Grid.Column="6" Grid.Row="1" VerticalAlignment="Center" FontFamily="Agency FB" FontWeight="Bold">
-                        <Button.Background>
-                            <ImageBrush ImageSource="/LnP.jpg" Opacity="0.33"/>
-                        </Button.Background>
-                    </Button>
-                    <Button x:Name="btnLargeLnP" Content="LnP (Large)" Width="200" Height="250" FontSize="30" HorizontalAlignment="Center" Click="btnLargeLnP_Click" Grid.Row="2" VerticalAlignment="Center" FontFamily="Agency FB" FontWeight="Bold">
-                        <Button.Background>
-                            <ImageBrush ImageSource="/LnP.jpg" Opacity="0.33"/>
-                        </Button.Background>
-                    </Button>
-                    <Button x:Name="btnSmallSparletta" Content="Sparletta (Small)" Width="200" Height="250" FontSize="30" HorizontalAlignment="Center" Click="btnSmallSparletta_Click" Grid.Column="1" Grid.Row="2" VerticalAlignment="Center" FontFamily="Agency FB" FontWeight="Bold">
+                    <Button x:Name="btnSparletta" Content="Sparletta" Width="200" Height="257" FontSize="30" HorizontalAlignment="Left" Click="btnSparletta_Click" Grid.Column="5" VerticalAlignment="Top" FontFamily="Agency FB" FontWeight="Bold" Margin="4,2,0,0" Grid.Row="1">
                         <Button.Background>
                             <ImageBrush ImageSource="/Sparletta.png" Opacity="0.33"/>
                         </Button.Background>
                     </Button>
-                    <Button x:Name="btnMediumSparletta" Content="Sparletta (Medium)" Width="200" Height="250" FontSize="30" HorizontalAlignment="Center" Click="btnMediumSparletta_Click" Grid.Column="2" Grid.Row="2" Margin="10,0,0,0" VerticalAlignment="Center" FontFamily="Agency FB" FontWeight="Bold">
-                        <Button.Background>
-                            <ImageBrush ImageSource="/Sparletta.png" Opacity="0.33"/>
-                        </Button.Background>
-                    </Button>
-                    <Button x:Name="btnLargeSparletta" Content="Sparletta (Large)" Width="200" Height="250" FontSize="30" HorizontalAlignment="Center" Click="btnLargeSparletta_Click" Grid.Column="3" Grid.Row="2" VerticalAlignment="Center" FontFamily="Agency FB" FontWeight="Bold">
-                        <Button.Background>
-                            <ImageBrush ImageSource="/Sparletta.png" Opacity="0.33"/>
-                        </Button.Background>
-                    </Button>
-                    <Button x:Name="btnSmallTing" Content="Ting (Small)" Width="200" Height="250" FontSize="30" HorizontalAlignment="Center" Click="btnSmallTing_Click" Grid.Column="4" Grid.Row="2" VerticalAlignment="Center" FontFamily="Agency FB" FontWeight="Bold">
+                    <Button x:Name="btnSmallTing" Content="Ting" Width="200" Height="257" FontSize="30" HorizontalAlignment="Left" Click="btnTing_Click" Grid.Column="6" VerticalAlignment="Top" FontFamily="Agency FB" FontWeight="Bold" Margin="4,2,0,0" Grid.Row="1">
                         <Button.Background>
                             <ImageBrush ImageSource="/ting.jpg" Opacity="0.33"/>
                         </Button.Background>
                     </Button>
-                    <Button x:Name="btnMediumTing" Content="Ting (Medium)" Width="200" Height="250" FontSize="30" HorizontalAlignment="Center" Click="btnMediumTing_Click" Grid.Column="5" Grid.Row="2" VerticalAlignment="Center" FontFamily="Agency FB" FontWeight="Bold">
-                        <Button.Background>
-                            <ImageBrush ImageSource="/ting.jpg" Opacity="0.33"/>
-                        </Button.Background>
-                    </Button>
-                    <Button x:Name="btnLargeTing" Content="Ting (Large)" Width="200" Height="250" FontSize="30" HorizontalAlignment="Center" Click="btnLargeTing_Click" Grid.Column="6" Grid.Row="2" VerticalAlignment="Center" FontFamily="Agency FB" FontWeight="Bold">
-                        <Button.Background>
-                            <ImageBrush ImageSource="/ting.jpg" Opacity="0.33"/>
-                        </Button.Background>
-                    </Button>
+                    <Button x:Name="btnMediumDrink" Click="btnMediumDrink_Click" Grid.Column="3" Content="Medium" HorizontalAlignment="Left" Margin="4,0,0,0" Grid.Row="2" VerticalAlignment="Center" Width="200" Height="130"/>
+                    <Button x:Name="btnSmallDrink" Click="btnSmallDrink_Click" Grid.Column="1" Content="Small" HorizontalAlignment="Left" Margin="4,0,0,0" Grid.Row="2" VerticalAlignment="Center" Width="200" Height="130"/>
+                    <Button x:Name="btnLargeDrink" Click="btnLargeDrink_Click" Grid.Column="5" Content="Large" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Width="200" Height="130"/>
+                    <Label x:Name="lbl" Content="Press Drink Size Before Drink Choice" HorizontalAlignment="Left" VerticalAlignment="Center" Height="99" Width="1067" FontSize="48" Background="Transparent" Foreground="Black" Grid.ColumnSpan="5" Grid.Column="1" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 </Grid>
             </TabItem>
             <TabItem x:Name="btnCombo" Header="Combos" Width="250" Height="100" FontSize="16">
