@@ -470,7 +470,7 @@ namespace Prototype
 
         private void btnLibertyNights_Click(object sender, RoutedEventArgs e)
         {
-
+            comboDeal("LIBERTY NIGHTS", "Nashville Hot", "Large Fries", "Chocolate Brownie", 15.50);
         }
 
         private void btnVenetianBite_Click(object sender, RoutedEventArgs e)
