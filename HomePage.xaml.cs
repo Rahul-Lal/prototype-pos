@@ -484,7 +484,7 @@ namespace Prototype
         }
         private void btnKyotoNights_Click(object sender, RoutedEventArgs e)
         {
-
+            comboDeal("KYOTO NIGHTS", "Kyoto Katsu Burger", "Spring Rolls", "Mochi Ice Cream", 15.50);
         }
 
         private void btnGroupTour_Click(object sender, RoutedEventArgs e)
