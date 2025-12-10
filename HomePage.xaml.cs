@@ -360,16 +360,6 @@ namespace Prototype
             txtTotal.Text = total.ToString("C");
         }
 
-
-        /*
-            private void btn{ FunctionName }_Click(object sender, RoutedEventArgs e)
-            {
-                txtOutput.Text += "{Insert Menu Item Title} \n";
-                txtPrices.Text += "$0.00\n";
-                total += 0.00;
-            }
-         */
-
         private void comboOption(string burger, double price)
         {
             MakeComboWindow makeCombo = new MakeComboWindow();
@@ -485,15 +475,14 @@ namespace Prototype
 
         private void btnVenetianBite_Click(object sender, RoutedEventArgs e)
         {
-
+            
         }
 
         private void btnFiestaBox_Click(object sender, RoutedEventArgs e)
         {
 
         }
-
-        private void btnLibertyNights_Click_1(object sender, RoutedEventArgs e)
+        private void btnKyotoNights_Click(object sender, RoutedEventArgs e)
         {
 
         }
@@ -521,6 +510,18 @@ namespace Prototype
         private void btnChurrosAddOn_Click(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void comboDeal(string title, string burger, string side, string dessert, double price) {
+            txtOutput.Text += title + "\n";
+            txtOutput.Text += burger + "\n";
+            txtOutput.Text += side + "\n";
+            txtOutput.Text += dessert + "\n";
+            txtOutput.Text += "Small Drink\n";
+            total += price;
+
+            txtPrices.Text += "$" + price.ToString() + "0\n\n\n\n";
+            totalAmount(total);
         }
     }
 }

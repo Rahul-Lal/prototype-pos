@@ -253,7 +253,7 @@
                     <Button x:Name="btnVenetianBite" Content="Venetian Bite" Width="285" Height="323" FontSize="16" Margin="0,10,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnVenetianBite_Click"/>
                     <Button x:Name="btnFiestaBox" Content="Fiesta Box" Width="288" Height="323" FontSize="16" Margin="292,10,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnFiestaBox_Click" Grid.ColumnSpan="2"/>
                     <Button x:Name="btnKyotoNights" Content="Kyoto Nights" Height="323" FontSize="16" Margin="0,10,10,0" VerticalAlignment="Top" Click="btnKyotoNights_Click" Grid.Column="2"/>
-                    <Button x:Name="btnLibertyNights" Content="Liberty Nights" Width="285" Height="323" FontSize="16" Margin="10,10,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnLibertyNights_Click_1" Grid.Column="3"/>
+                    <Button x:Name="btnLibertyNights" Content="Liberty Nights" Width="285" Height="323" FontSize="16" Margin="10,10,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnLibertyNights_Click" Grid.Column="3"/>
                     <Button x:Name="btnGroupTour" Content="The Group Tour" Width="275" Height="323" FontSize="16" Margin="0,10,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Click="btnGroupTour_Click" Grid.Column="4"/>
 
                     <Button x:Name="btnMozzarellaSticksAddOn" Content="$3.00 Mozzarella Sticks Add On" Width="275" Height="323" FontSize="16" Margin="0,10,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Click="btnMozzarellaSticksAddOn_Click" Grid.Row="1"/>
