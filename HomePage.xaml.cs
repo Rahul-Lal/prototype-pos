@@ -326,7 +326,7 @@ namespace Prototype
             if (isDrinkLarge == true || isDrinkMedium == true || isDrinkSmall == true)
             {
                 setDrinkSize();
-                txtOutput.Text += "Sparletta \n";
+                txtOutput.Text += "Sparletta Cream Soda \n";
             }
             else
             {
@@ -476,6 +476,51 @@ namespace Prototype
                 totalAmount(total);
                 isDrinkLarge = false;
             }
+        }
+
+        private void btnLibertyNights_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnVenetianBite_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnFiestaBox_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnLibertyNights_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnGroupTour_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnMozzarellaSticksAddOn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnSpringRollsAddOn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnBrownieAddOn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnChurrosAddOn_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
