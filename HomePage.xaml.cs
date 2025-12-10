@@ -258,44 +258,93 @@ namespace Prototype
 
         private void btnCoke_Click(object sender, RoutedEventArgs e)
         {
-            setDrinkSize();
-            txtOutput.Text += "Coke\n";
+            if (isDrinkLarge == true || isDrinkMedium == true || isDrinkSmall == true)
+            {
+                setDrinkSize();
+                txtOutput.Text += "Coke\n";
+            }
+            else
+            {
+                MessageBox.Show("Please Select a size first.");
+            }
         }
 
         private void btnCokeNS_Click(object sender, RoutedEventArgs e)
         {
-            setDrinkSize();
-            txtOutput.Text += "Coke No Sugar \n";
+            if (isDrinkLarge == true || isDrinkMedium == true || isDrinkSmall == true)
+            {
+                setDrinkSize();
+                txtOutput.Text += "Coke No Sugar \n";
+            }
+            else
+            {
+                MessageBox.Show("Please Select a size first.");
+            }
         }
 
         private void btnJarritos_Click(object sender, RoutedEventArgs e)
         {
-            setDrinkSize();
-            txtOutput.Text += "Jarritos \n";
+            if (isDrinkLarge == true || isDrinkMedium == true || isDrinkSmall == true)
+            {
+                setDrinkSize();
+                txtOutput.Text += "Jarritos \n";
+            }
+            else
+            {
+                MessageBox.Show("Please Select a size first.");
+            }
         }
 
         private void btnIrnBru_Click(object sender, RoutedEventArgs e)
         {
-            setDrinkSize();
-            txtOutput.Text += "Irn Bru\n";
+            if (isDrinkLarge == true || isDrinkMedium == true || isDrinkSmall == true)
+            {
+                setDrinkSize();
+                txtOutput.Text += "Irn Bru \n";
+            }
+            else
+            {
+                MessageBox.Show("Please Select a size first.");
+            }
         }
 
         private void btnLnP_Click(object sender, RoutedEventArgs e)
         {
-            setDrinkSize();
-            txtOutput.Text += "L&P\n";
+            if (isDrinkLarge == true || isDrinkMedium == true || isDrinkSmall == true)
+            {
+                setDrinkSize();
+                txtOutput.Text += "LnP \n";
+            }
+            else
+            {
+                MessageBox.Show("Please Select a size first.");
+            }
         }
 
         private void btnSparletta_Click(object sender, RoutedEventArgs e)
         {
-            setDrinkSize();
-            txtOutput.Text += "Sparletta\n";
+            if (isDrinkLarge == true || isDrinkMedium == true || isDrinkSmall == true)
+            {
+                setDrinkSize();
+                txtOutput.Text += "Sparletta \n";
+            }
+            else
+            {
+                MessageBox.Show("Please Select a size first.");
+            }
         }
 
         private void btnTing_Click(object sender, RoutedEventArgs e)
         {
-            setDrinkSize();
-            txtOutput.Text += "Ting\n";
+            if (isDrinkLarge == true || isDrinkMedium == true || isDrinkSmall == true)
+            {
+                setDrinkSize();
+                txtOutput.Text += "Ting \n";
+            }
+            else
+            {
+                MessageBox.Show("Please Select a size first.");
+            }
         }
 
         private void btnClearOrder_Click(object sender, RoutedEventArgs e)
