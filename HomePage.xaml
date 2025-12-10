@@ -14,11 +14,12 @@
 
     <Grid Name="grdLayout" MaxWidth="1920" Width="1920">
 
-        <!-- FIX: Removed IsReadOnly property from TextBlock, which is invalid -->
-        <TextBlock x:Name="txtOutput" TextWrapping="Wrap" FontSize="20" HorizontalAlignment="Left" Width="346" MaxHeight="1080" Background="#FFBBBBBB" Foreground="#FF0058CE" Margin="0,0,0,236" ScrollViewer.HorizontalScrollBarVisibility="Disabled"
-         ScrollViewer.VerticalScrollBarVisibility="Auto" />
-        <TextBlock x:Name="txtPrices" TextWrapping="Wrap" FontSize="20" HorizontalAlignment="Left" Width="75" MaxHeight="1080" Background="#FFBBBBBB" Foreground="#FF0058CE" Margin="346,0,0,236" TextAlignment="Right" ScrollViewer.HorizontalScrollBarVisibility="Disabled"
-         ScrollViewer.VerticalScrollBarVisibility="Auto"  />
+        <ScrollViewer HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Hidden" Margin="0,0,1475,0">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Top">
+                <TextBlock x:Name="txtOutput" TextWrapping="Wrap" FontSize="20" Width="346" MaxHeight="1080" Background="#FFBBBBBB" Foreground="#FF0058CE" Margin="0,0,0,236" TextAlignment="Left" Height="1078" VerticalAlignment="Top" />
+                <TextBlock x:Name="txtPrices" TextWrapping="Wrap" FontSize="20" Width="75" MaxHeight="1080" Background="#FFBBBBBB" Foreground="#FF0058CE" TextAlignment="Right" Height="1078" VerticalAlignment="Top" />
+            </StackPanel>
+        </ScrollViewer>
 
         <TabControl Margin="421,0,0,167" HorizontalAlignment="Left" Width="1920">
             <TabItem x:Name="btnEuropeanBurger" Header="European Burger" Width="250" Height="100" FontSize="16" HorizontalAlignment="Center" Margin="0,1,0,-1">
@@ -232,17 +233,30 @@
                     <Button x:Name="btnMediumDrink" Click="btnMediumDrink_Click" Grid.Column="3" Content="Medium" HorizontalAlignment="Left" Margin="4,0,0,0" Grid.Row="2" VerticalAlignment="Center" Width="200" Height="130"/>
                     <Button x:Name="btnSmallDrink" Click="btnSmallDrink_Click" Grid.Column="1" Content="Small" HorizontalAlignment="Left" Margin="4,0,0,0" Grid.Row="2" VerticalAlignment="Center" Width="200" Height="130"/>
                     <Button x:Name="btnLargeDrink" Click="btnLargeDrink_Click" Grid.Column="5" Content="Large" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Width="200" Height="130"/>
-                    <Label x:Name="lbl" Content="Press Drink Size Before Drink Choice" HorizontalAlignment="Left" VerticalAlignment="Center" Height="99" Width="1067" FontSize="48" Background="Transparent" Foreground="Black" Grid.ColumnSpan="5" Grid.Column="1" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                    <Label x:Name="lblInstruction" Content="Press Drink Size Before Drink Choice" HorizontalAlignment="Left" VerticalAlignment="Center" Height="99" Width="1067" FontSize="48" Background="Transparent" Foreground="Black" Grid.ColumnSpan="5" Grid.Column="1" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 </Grid>
             </TabItem>
-            <TabItem x:Name="btnCombo" Header="Combos" Width="250" Height="100" FontSize="16">
-
+            <TabItem x:Name="btnCombo" Header="Combos + Add-Ons" Width="250" Height="100" FontSize="16">
+                <Grid Height="806" Margin="10,0,429,0" VerticalAlignment="Top">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="211*"/>
+                        <RowDefinition Height="192*"/>
+                        <RowDefinition Height="403*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="300*"/>
+                        <ColumnDefinition Width="300*"/>
+                        <ColumnDefinition Width="300*"/>
+                        <ColumnDefinition Width="300*"/>
+                        <ColumnDefinition Width="300*"/>
+                    </Grid.ColumnDefinitions>
+                </Grid>
             </TabItem>
         </TabControl>
         <Label Content="TOTAL: " HorizontalAlignment="Left" Margin="0,844,0,0" VerticalAlignment="Top" Height="69" Width="227" FontSize="36" FontWeight="Bold" Background="#FFBBBBBB" VerticalContentAlignment="Center"/>
         <TextBox x:Name="txtTotal" IsReadOnly="True" HorizontalAlignment="Left" Margin="227,844,0,0" TextWrapping="Wrap" Text="0.00" VerticalAlignment="Top" Width="196" Height="68" FontSize="36" TextAlignment="Center" Background="#FFBBBBBB" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
 
         <Button x:Name="btnClearOrder" Content="Clear Order" HorizontalAlignment="Left" Margin="0,913,0,0" VerticalAlignment="Top" Height="167" Width="227" Click="btnClearOrder_Click" FontSize="24"/>
-        <Button x:Name="btnPayment" Content="Pay" HorizontalAlignment="Left" Margin="224,912,0,0" VerticalAlignment="Top" Height="168" Width="203" FontSize="24" />
+        <Button x:Name="btnPayment" Content="Pay" HorizontalAlignment="Left" Margin="224,912,0,0" VerticalAlignment="Top" Height="168" Width="221" FontSize="24" />
     </Grid>
 </Page>
