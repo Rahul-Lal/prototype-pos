@@ -475,7 +475,7 @@ namespace Prototype
 
         private void btnVenetianBite_Click(object sender, RoutedEventArgs e)
         {
-            
+            comboDeal("VENETIAN BITE", "Single Roma Burger", "Garlic Bread", "Tiramisu Cup", 15.50);
         }
 
         private void btnFiestaBox_Click(object sender, RoutedEventArgs e)
