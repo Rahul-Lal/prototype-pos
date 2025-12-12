@@ -494,27 +494,40 @@ namespace Prototype
 
         private void btnMozzarellaSticksAddOn_Click(object sender, RoutedEventArgs e)
         {
-
+            printMenuItem("Mozzarella Sticks", 3.0);
         }
 
         private void btnSpringRollsAddOn_Click(object sender, RoutedEventArgs e)
         {
-
+            printMenuItem("Spring Rolls", 3.0);
         }
 
         private void btnBrownieAddOn_Click(object sender, RoutedEventArgs e)
         {
-
+            printMenuItem("Chocolate Brownie", 3.0);
         }
 
         private void btnChurrosAddOn_Click(object sender, RoutedEventArgs e)
         {
-
+            printMenuItem("Churros", 3.0);
         }
 
         private void comboDeal(string title, string burger, string side, string dessert, double price) {
             txtOutput.Text += title + "\n";
             txtOutput.Text += burger + "\n";
+            txtOutput.Text += side + "\n";
+            txtOutput.Text += dessert + "\n";
+            txtOutput.Text += "Small Drink\n";
+            total += price;
+
+            txtPrices.Text += "$" + price.ToString() + "0\n\n\n\n";
+            totalAmount(total);
+        }
+
+        private void multiChoiceComboDeal(string title, string burger1, string burger2, string side, string dessert, double price)
+        {
+            txtOutput.Text += title + "\n";
+            txtOutput.Text += burger1 + " or " + burger2 + "\n";
             txtOutput.Text += side + "\n";
             txtOutput.Text += dessert + "\n";
             txtOutput.Text += "Small Drink\n";
