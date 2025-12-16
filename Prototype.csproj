@@ -85,10 +85,17 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="PaymentWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MakeComboWindow.xaml.cs">
       <DependentUpon>MakeComboWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentWindow.xaml.cs">
+      <DependentUpon>PaymentWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
@@ -181,6 +188,13 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="ting.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="media\Money\Fifty.jpg" />
+    <Resource Include="media\Money\Five.jpg" />
+    <Resource Include="media\Money\One Hundred.jpg" />
+    <Resource Include="media\Money\Ten.jpg" />
+    <Resource Include="media\Money\Twenty.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

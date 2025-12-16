@@ -559,5 +559,12 @@ namespace Prototype
             txtPrices.Text += "$" + price.ToString() + "0\n\n\n\n\n";
             totalAmount(total);
         }
+
+        private void btnPayment_Click(object sender, RoutedEventArgs e)
+        {
+            PaymentWindow paymentWindow = new PaymentWindow();
+            paymentWindow.txtTotalPrice.Text = total.ToString("C");
+            paymentWindow.ShowDialog();
+        }
     }
 }

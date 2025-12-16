@@ -7,17 +7,37 @@
         mc:Ignorable="d"
         Title="Payment" Height="450" Width="800">
     <Grid>
-        <Label Content="Total" FontSize="24" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="0,285,0,0" VerticalAlignment="Top" Width="168" FontWeight="Bold" Height="42"/>
-        <TextBox x:Name="txtTotalPrice" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"  Margin="0,327,0,0" TextWrapping="Wrap" Text="$0.00" VerticalAlignment="Top" Width="168" Height="47" IsReadOnly="True" FontSize="24" TextAlignment="Center"/>
+        <Label Content="Total" FontSize="48" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="0,273,0,0" VerticalAlignment="Top" Width="228" FontWeight="Bold" Height="69" RenderTransformOrigin="0.486,0.166"/>
+        <TextBox x:Name="txtTotalPrice" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"  Margin="0,342,0,0" TextWrapping="Wrap" Text="$0.00" VerticalAlignment="Top" Width="228" Height="72" IsReadOnly="True" FontSize="48" TextAlignment="Center"/>
 
-        <Button x:Name="btnEftpos" Content="Button" HorizontalAlignment="Left" Margin="54,63,0,0" VerticalAlignment="Top" Height="88" Width="169"/>
-        <Button x:Name="btnExactAmount" Content="Button" HorizontalAlignment="Left" Margin="228,63,0,0" VerticalAlignment="Top" Height="88" Width="169"/>
-        <Button x:Name="btnCash" Content="Button" HorizontalAlignment="Left" Margin="402,63,0,0" VerticalAlignment="Top" Height="88" Width="169"/>
-        <Button x:Name="btnHundredDollars" Content="Button" HorizontalAlignment="Left" Margin="576,63,0,0" VerticalAlignment="Top" Height="88" Width="169"/>
-        <Button x:Name="btnFiftyDollars" Content="Button" HorizontalAlignment="Left" Margin="54,156,0,0" VerticalAlignment="Top" Height="88" Width="169"/>
-        <Button x:Name="btnTwentyDollars" Content="Button" HorizontalAlignment="Left" Margin="228,156,0,0" VerticalAlignment="Top" Height="88" Width="169"/>
-        <Button x:Name="btnTenDollars" Content="Button" HorizontalAlignment="Left" Margin="402,156,0,0" VerticalAlignment="Top" Height="88" Width="169"/>
-        <Button x:Name="btnFiveDollars" Content="Button" HorizontalAlignment="Left" Margin="576,156,0,0" VerticalAlignment="Top" Height="88" Width="169"/>
+        <Button x:Name="btnEftpos" Content="EFTPOS" HorizontalAlignment="Left" Margin="54,63,0,0" VerticalAlignment="Top" Height="88" Width="169" FontSize="24" Foreground="White" Background="#FF3406B9"/>
+        <Button x:Name="btnExactAmount" Content="Exact" HorizontalAlignment="Left" Margin="228,63,0,0" VerticalAlignment="Top" Height="88" Width="169" FontSize="24" Background="#FF585858" Foreground="White"/>
+        <Button x:Name="btnCash" Content="Cash" HorizontalAlignment="Left" Margin="402,63,0,0" VerticalAlignment="Top" Height="88" Width="169" FontSize="24" Background="#FF0ACA39" Foreground="White"/>
+        <Button x:Name="btnHundredDollars" HorizontalAlignment="Left" Margin="576,63,0,0" VerticalAlignment="Top" Height="88" Width="169">
+            <Button.Background>
+                <ImageBrush ImageSource="/media/Money/One Hundred.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnFiftyDollars" HorizontalAlignment="Left" Margin="54,156,0,0" VerticalAlignment="Top" Height="88" Width="169">
+            <Button.Background>
+                <ImageBrush ImageSource="/media/Money/Fifty.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnTwentyDollars" HorizontalAlignment="Left" Margin="228,156,0,0" VerticalAlignment="Top" Height="88" Width="169">
+            <Button.Background>
+                <ImageBrush ImageSource="/media/Money/Twenty.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnTenDollars" HorizontalAlignment="Left" Margin="402,156,0,0" VerticalAlignment="Top" Height="88" Width="169">
+            <Button.Background>
+                <ImageBrush ImageSource="/media/Money/Ten.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnFiveDollars" HorizontalAlignment="Left" Margin="576,156,0,0" VerticalAlignment="Top" Height="88" Width="169">
+            <Button.Background>
+                <ImageBrush ImageSource="/media/Money/Five.jpg"/>
+            </Button.Background>
+        </Button>
 
 
     </Grid>
