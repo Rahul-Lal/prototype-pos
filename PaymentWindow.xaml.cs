@@ -23,5 +23,72 @@ namespace Prototype
         {
             InitializeComponent();
         }
+
+        private void btnEftpos_Click(object sender, RoutedEventArgs e)
+        {
+            HomePage home = new HomePage();
+            double totalAmount = home.total;
+
+            
+        }
+
+        private void btnExactAmount_Click(object sender, RoutedEventArgs e)
+        {
+            HomePage home = new HomePage();
+            double totalAmount = home.total;
+        }
+
+        private void btnCash_Click(object sender, RoutedEventArgs e)
+        {
+            HomePage home = new HomePage();
+            double totalAmount = home.total;
+        }
+
+        private void btnHundredDollars_Click(object sender, RoutedEventArgs e)
+        {
+            HomePage home = new HomePage();
+            double totalAmount = home.total;
+            totalAmount -= 100.0;
+            txtTotalPrice.Text = totalAmount.ToString();
+
+        }
+
+        private void btnFiftyDollars_Click(object sender, RoutedEventArgs e)
+        {
+            HomePage home = new HomePage();
+            double totalAmount = home.total;
+            totalAmount -= 50.0;
+            txtTotalPrice.Text = totalAmount.ToString();
+
+        }
+
+        private void btnTwentyDollars_Click(object sender, RoutedEventArgs e)
+        {
+            HomePage home = new HomePage();
+            txtTotalPrice.Text = home.total.ToString();
+            double totalAmount = home.total;
+            totalAmount -= 20.00;
+            txtTotalPrice.Text = totalAmount.ToString();
+
+
+        }
+
+        private void btnTenDollars_Click(object sender, RoutedEventArgs e)
+        {
+            HomePage home = new HomePage();
+            double totalAmount = home.total;
+            totalAmount -= 10.0;
+            txtTotalPrice.Text = totalAmount.ToString();
+
+        }
+
+        private void btnFiveDollars_Click(object sender, RoutedEventArgs e)
+        {
+            HomePage home = new HomePage();
+            double totalAmount = home.total;
+            totalAmount -= 5.0;
+            txtTotalPrice.Text = totalAmount.ToString();
+
+        }
     }
 }
