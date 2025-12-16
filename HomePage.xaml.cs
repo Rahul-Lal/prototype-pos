@@ -480,8 +480,9 @@ namespace Prototype
 
         private void btnFiestaBox_Click(object sender, RoutedEventArgs e)
         {
-
+            multiChoiceComboDeal("FIESTA BOX", "Baja Chicken", "Oaxaca Veggie", "Loaded Nachos", "Churros", 17.50);
         }
+       
         private void btnKyotoNights_Click(object sender, RoutedEventArgs e)
         {
             comboDeal("KYOTO NIGHTS", "Kyoto Katsu Burger", "Spring Rolls", "Mochi Ice Cream", 15.50);
@@ -520,20 +521,42 @@ namespace Prototype
             txtOutput.Text += "Small Drink\n";
             total += price;
 
-            txtPrices.Text += "$" + price.ToString() + "0\n\n\n\n";
+            txtPrices.Text += "$" + price.ToString() + "0\n\n\n\n\n";
             totalAmount(total);
         }
 
         private void multiChoiceComboDeal(string title, string burger1, string burger2, string side, string dessert, double price)
         {
+            string finalBurgerChoice = "";
+            
+            BurgerChoiceWindow burgerChoice = new BurgerChoiceWindow();
+            burgerChoice.btnOptionOne.Content = "Baja Chicken";
+            burgerChoice.btnOptionTwo.Content = "Oaxaca Veggie";
+            burgerChoice.ShowDialog();
+
+            if (burgerChoice.isOptionOne == true)
+            {
+                finalBurgerChoice = burger1;
+                burgerChoice.isOptionOne = false;
+            }
+            else if (burgerChoice.isOptionTwo == true)
+            {
+                finalBurgerChoice = burger2;
+                burgerChoice.isOptionTwo = false;
+            }
+            else
+            {
+                finalBurgerChoice = burger1;
+            }
+
             txtOutput.Text += title + "\n";
-            txtOutput.Text += burger1 + " or " + burger2 + "\n";
+            txtOutput.Text += finalBurgerChoice + "\n";
             txtOutput.Text += side + "\n";
             txtOutput.Text += dessert + "\n";
             txtOutput.Text += "Small Drink\n";
             total += price;
 
-            txtPrices.Text += "$" + price.ToString() + "0\n\n\n\n";
+            txtPrices.Text += "$" + price.ToString() + "0\n\n\n\n\n";
             totalAmount(total);
         }
     }
