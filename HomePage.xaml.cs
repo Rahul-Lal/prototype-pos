@@ -530,8 +530,8 @@ namespace Prototype
             string finalBurgerChoice = "";
             
             BurgerChoiceWindow burgerChoice = new BurgerChoiceWindow();
-            burgerChoice.btnOptionOne.Content = "Baja Chicken";
-            burgerChoice.btnOptionTwo.Content = "Oaxaca Veggie";
+            burgerChoice.btnOptionOne.Content = burger1;
+            burgerChoice.btnOptionTwo.Content = burger2;
             burgerChoice.ShowDialog();
 
             if (burgerChoice.isOptionOne == true)
