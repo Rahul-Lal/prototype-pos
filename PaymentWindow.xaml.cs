@@ -63,10 +63,7 @@ namespace Prototype
 
         private void btnFiftyDollars_Click(object sender, RoutedEventArgs e)
         {
-            HomePage home = new HomePage();
-            double totalAmount = home.total;
-            totalAmount -= 50.0;
-            txtTotalPrice.Text = totalAmount.ToString();
+            ApplyPayment(50);
 
         }
 
