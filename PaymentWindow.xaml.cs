@@ -60,7 +60,6 @@ namespace Prototype
         private void btnFiftyDollars_Click(object sender, RoutedEventArgs e)
         {
             ApplyPayment(50);
-
         }
 
         private void btnTwentyDollars_Click(object sender, RoutedEventArgs e)
@@ -75,11 +74,7 @@ namespace Prototype
 
         private void btnFiveDollars_Click(object sender, RoutedEventArgs e)
         {
-            HomePage home = new HomePage();
-            double totalAmount = home.total;
-            totalAmount -= 5.0;
-            txtTotalPrice.Text = totalAmount.ToString();
-
+            ApplyPayment(5);
         }
     }
 }
