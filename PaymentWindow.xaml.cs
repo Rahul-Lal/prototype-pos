@@ -19,15 +19,17 @@ namespace Prototype
     /// </summary>
     public partial class PaymentWindow : Window
     {
-        public PaymentWindow()
+            private double amountOwed;
+        public PaymentWindow(double total)
         {
             InitializeComponent();
+            amountOwed = total;
+            txtTotalPrice.Text = amountOwed.ToString("0.00");
         }
 
         private void btnEftpos_Click(object sender, RoutedEventArgs e)
         {
             HomePage home = new HomePage();
-            double totalAmount = home.total;
 
             
         }
@@ -36,6 +38,12 @@ namespace Prototype
         {
             HomePage home = new HomePage();
             double totalAmount = home.total;
+        }
+
+        private void ApplyPayment(double amount)
+        {
+            amountOwed -= amount;
+            txtTotalPrice.Text = amountOwed.ToString("0.00");
         }
 
         private void btnCash_Click(object sender, RoutedEventArgs e)
@@ -64,13 +72,7 @@ namespace Prototype
 
         private void btnTwentyDollars_Click(object sender, RoutedEventArgs e)
         {
-            HomePage home = new HomePage();
-            txtTotalPrice.Text = home.total.ToString();
-            double totalAmount = home.total;
-            totalAmount -= 20.00;
-            txtTotalPrice.Text = totalAmount.ToString();
-
-
+            ApplyPayment(20);
         }
 
         private void btnTenDollars_Click(object sender, RoutedEventArgs e)

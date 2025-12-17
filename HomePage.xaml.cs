@@ -562,8 +562,7 @@ namespace Prototype
 
         private void btnPayment_Click(object sender, RoutedEventArgs e)
         {
-            PaymentWindow paymentWindow = new PaymentWindow();
-            paymentWindow.txtTotalPrice.Text = total.ToString("C");
+            PaymentWindow paymentWindow = new PaymentWindow(total);
             paymentWindow.ShowDialog();
         }
     }
