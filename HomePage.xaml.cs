@@ -191,9 +191,9 @@ namespace Prototype
             printMenuItem("Poutine", 6.5);
         }
 
-        private void btnChocolateBrownie_Click(object sender, RoutedEventArgs e)
+        private void btnApplePie_Click(object sender, RoutedEventArgs e)
         {
-            printMenuItem("Chocolate Brownie", 4.5);
+            printMenuItem("Apple Pie", 4.5);
         }
 
         private void btnChurros_Click(object sender, RoutedEventArgs e)
@@ -475,7 +475,7 @@ namespace Prototype
 
         private void btnLibertyNights_Click(object sender, RoutedEventArgs e)
         {
-            comboDeal("LIBERTY NIGHTS", "Nashville Hot", "Large Fries", "Chocolate Brownie", 15.50);
+            comboDeal("LIBERTY NIGHTS", "Nashville Hot", "Large Fries", "Apple Pie", 15.50);
         }
 
         private void btnVenetianBite_Click(object sender, RoutedEventArgs e)
@@ -508,9 +508,9 @@ namespace Prototype
             printMenuItem("Spring Rolls", 3.0);
         }
 
-        private void btnBrownieAddOn_Click(object sender, RoutedEventArgs e)
+        private void btnApplePieAddOn_Click(object sender, RoutedEventArgs e)
         {
-            printMenuItem("Chocolate Brownie", 3.0);
+            printMenuItem("Apple Pie", 3.0);
         }
 
         private void btnChurrosAddOn_Click(object sender, RoutedEventArgs e)
