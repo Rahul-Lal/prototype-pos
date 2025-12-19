@@ -349,6 +349,11 @@ namespace Prototype
 
         private void btnClearOrder_Click(object sender, RoutedEventArgs e)
         {
+            ClearOutput();
+        }
+
+        public void ClearOutput()
+        {
             txtOutput.Text = "";
             txtPrices.Text = "";
             total = 0.0;
@@ -475,7 +480,7 @@ namespace Prototype
 
         private void btnVenetianBite_Click(object sender, RoutedEventArgs e)
         {
-            comboDeal("VENETIAN BITE", "Single Roma Burger", "Garlic Bread", "Tiramisu Cup", 15.50);
+            comboDeal("VENETIAN BITE", "Single Roma Burger", "Mozzarella Sticks", "Tiramisu Cup", 15.50);
         }
 
         private void btnFiestaBox_Click(object sender, RoutedEventArgs e)
@@ -562,7 +567,7 @@ namespace Prototype
 
         private void btnPayment_Click(object sender, RoutedEventArgs e)
         {
-            PaymentWindow paymentWindow = new PaymentWindow(total);
+            var paymentWindow = new PaymentWindow(this, total);
             paymentWindow.ShowDialog();
         }
     }
