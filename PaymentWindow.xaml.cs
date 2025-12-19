@@ -32,7 +32,10 @@ namespace Prototype
 
         private void btnEftpos_Click(object sender, RoutedEventArgs e)
         {
-
+            MessageBox.Show("EFTPOS Accepted!");
+            amountOwed -= amountOwed;
+            totalPaid();
+            clearOutput();
         }
 
         private void btnExactAmount_Click(object sender, RoutedEventArgs e)
