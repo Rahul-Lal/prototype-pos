@@ -59,6 +59,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="GroupTourWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="HomePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -73,6 +77,9 @@
     </Compile>
     <Compile Include="BurgerChoiceWindow.xaml.cs">
       <DependentUpon>BurgerChoiceWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GroupTourWindow.xaml.cs">
+      <DependentUpon>GroupTourWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="HomePage.xaml.cs">
       <DependentUpon>HomePage.xaml</DependentUpon>
@@ -195,6 +202,9 @@
     <Resource Include="media\Money\One Hundred.jpg" />
     <Resource Include="media\Money\Ten.jpg" />
     <Resource Include="media\Money\Twenty.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="media\Dessert\Apple Pie.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

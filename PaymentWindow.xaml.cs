@@ -47,10 +47,17 @@ namespace Prototype
 
         private void ApplyPayment(double amount)
         {
-            amountOwed -= amount;
+            // amountOwed -= amount;
 
 
             txtTotalPrice.Text = amountOwed.ToString("0.00");
+            double change = amount - amountOwed;
+            amountOwed = 0;
+            txtTotalPrice.Text = "0.00";
+
+            MessageBox.Show($"Change: ${change:0.00}");
+            clearOutput();
+            this.Close();
         }
 
         private void btnCash_Click(object sender, RoutedEventArgs e)
