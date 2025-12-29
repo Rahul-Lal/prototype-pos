@@ -139,42 +139,43 @@
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="300*"/>
-                        <ColumnDefinition Width="300*"/>
-                        <ColumnDefinition Width="300*"/>
-                        <ColumnDefinition Width="300*"/>
-                        <ColumnDefinition Width="300*"/>
-                        <ColumnDefinition Width="300*"/>
-                        <ColumnDefinition Width="300*"/>
+                        <ColumnDefinition Width="143*"/>
+                        <ColumnDefinition Width="71*"/>
+                        <ColumnDefinition Width="214*"/>
+                        <ColumnDefinition Width="214*"/>
+                        <ColumnDefinition Width="214*"/>
+                        <ColumnDefinition Width="214*"/>
+                        <ColumnDefinition Width="214*"/>
+                        <ColumnDefinition Width="214*"/>
                     </Grid.ColumnDefinitions>
 
-                    <Button x:Name="btnApplePie" Content="Apple Pie" Width="194" Height="132" FontSize="16" Margin="0,262,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Click="btnApplePie_Click"/>
-                    <Button x:Name="btnChurros" Content="Churros" Width="194" Height="133" FontSize="16" Margin="0,260,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Click="btnChurros_Click" RenderTransformOrigin="-0.356,0.981" Grid.Column="1"/>
-                    <Button x:Name="btnTiramisuCup" Content="Tiramisu Cup" Width="204" Height="134" FontSize="16" Margin="0,260,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnTiramisuCup_Click" Grid.Column="2"/>
-                    <Button x:Name="btnMochiIceCream" Content="Mochi Ice-Cream" Width="194" Height="134" FontSize="16" Margin="0,260,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Click="btnMochiIceCream_Click" RenderTransformOrigin="0.5,0.5" Grid.Column="3"/>
-                    <Button x:Name="btnCremeBrulee" Content="Creme Brulee" Width="194" Height="134" FontSize="16" Margin="0,260,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Click="btnCremeBrulee_Click" Grid.Column="4"/>
-                    <Button x:Name="btnBaklavaBites" Content="Baklava Bites" Height="134" FontSize="16" Margin="0,260,0,0" VerticalAlignment="Top" Click="btnBaklavaBites_Click" HorizontalAlignment="Center" Width="194" RenderTransformOrigin="0.167,0.55" Grid.Column="5"/>
-                    <Button x:Name="btnMatchaGreenTeaShake" Content="Matcha Green Tea Shake" Width="194" Height="130" FontSize="16" Margin="0,262,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Click="btnMatchaGreenTeaShake_Click" Grid.Column="6"/>
-                    <Button x:Name="btnChurroCinnamonShake" Content="Churro Cinnamon Shake" Width="194" Height="134" FontSize="16" Margin="0,260,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Click="btnChurroCinnamonShake_Click" Grid.Row="1"/>
-                    <Button x:Name="btnMangoLassiShake" Content="Mango Lassi Shake" Width="194" Height="134" FontSize="16" Margin="5,260,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnMangoLassiShake_Click" RenderTransformOrigin="0.567,0.123" Grid.Row="1" Grid.Column="1"/>
-                    <Button x:Name="btnDulceDeLecheShake" Content="Dulce De Leche Shake" Width="194" Height="134" FontSize="16" Margin="0,260,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Click="btnDulceDeLecheShake_Click" Grid.Column="4" Grid.Row="1"/>
-                    <Button x:Name="btnTiramisuShake" Content="Tiramisu Shake" Width="204" Height="134" FontSize="16" Margin="0,260,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnTiramisuShake_Click" Grid.Column="3" Grid.Row="1"/>
-                    <Button x:Name="btnPandanCoconutShake" Content="Pandan Coconut Shake" Width="194" Height="134" FontSize="16" Margin="0,260,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Click="btnPandanCoconutShake_Click" Grid.Column="2" Grid.Row="1"/>
-                    <Button x:Name="btnDubaiChocolateShake" Content="Dubai Chocolate Shake" Width="204" Height="134" FontSize="16" Margin="0,260,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnDubaiChocolateShake_Click" Grid.Column="5" Grid.Row="1"/>
+                    <Button x:Name="btnApplePie" Content="Apple Pie" Width="194" Height="132" FontSize="16" Margin="0,262,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Click="btnApplePie_Click" Grid.ColumnSpan="2"/>
+                    <Button x:Name="btnChurros" Content="Churros" Width="194" Height="133" FontSize="16" Margin="0,260,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Click="btnChurros_Click" RenderTransformOrigin="-0.356,0.981" Grid.Column="2"/>
+                    <Button x:Name="btnTiramisuCup" Content="Tiramisu Cup" Width="204" Height="134" FontSize="16" Margin="0,260,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnTiramisuCup_Click" Grid.Column="3"/>
+                    <Button x:Name="btnMochiIceCream" Content="Mochi Ice-Cream" Width="194" Height="134" FontSize="16" Margin="0,260,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Click="btnMochiIceCream_Click" RenderTransformOrigin="0.5,0.5" Grid.Column="4"/>
+                    <Button x:Name="btnCremeBrulee" Content="Creme Brulee" Width="194" Height="134" FontSize="16" Margin="0,260,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Click="btnCremeBrulee_Click" Grid.Column="5"/>
+                    <Button x:Name="btnBaklavaBites" Content="Baklava Bites" Height="134" FontSize="16" Margin="0,260,0,0" VerticalAlignment="Top" Click="btnBaklavaBites_Click" HorizontalAlignment="Center" Width="194" RenderTransformOrigin="0.167,0.55" Grid.Column="6"/>
+                    <Button x:Name="btnMatchaGreenTeaShake" Content="Matcha Green Tea Shake" Width="194" Height="130" FontSize="16" Margin="0,262,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Click="btnMatchaGreenTeaShake_Click" Grid.Column="7"/>
+                    <Button x:Name="btnChurroCinnamonShake" Content="Churro Cinnamon Shake" Width="194" Height="134" FontSize="16" Margin="0,260,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Click="btnChurroCinnamonShake_Click" Grid.Row="1" Grid.ColumnSpan="2"/>
+                    <Button x:Name="btnMangoLassiShake" Content="Mango Lassi Shake" Width="194" Height="134" FontSize="16" Margin="5,260,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnMangoLassiShake_Click" RenderTransformOrigin="0.567,0.123" Grid.Row="1" Grid.Column="2"/>
+                    <Button x:Name="btnDulceDeLecheShake" Content="Dulce De Leche Shake" Width="194" Height="134" FontSize="16" Margin="0,260,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Click="btnDulceDeLecheShake_Click" Grid.Column="5" Grid.Row="1"/>
+                    <Button x:Name="btnTiramisuShake" Content="Tiramisu Shake" Width="204" Height="134" FontSize="16" Margin="0,260,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnTiramisuShake_Click" Grid.Column="4" Grid.Row="1"/>
+                    <Button x:Name="btnPandanCoconutShake" Content="Pandan Coconut Shake" Width="194" Height="134" FontSize="16" Margin="0,260,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Click="btnPandanCoconutShake_Click" Grid.Column="3" Grid.Row="1"/>
+                    <Button x:Name="btnDubaiChocolateShake" Content="Dubai Chocolate Shake" Width="204" Height="134" FontSize="16" Margin="0,260,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnDubaiChocolateShake_Click" Grid.Column="6" Grid.Row="1"/>
 
-                    <Image Margin="0,10,10,148" Source="/media/Dessert/Apple Pie.png" Stretch="Fill" Height="245"/>
-                    <Image Margin="0,10,10,148" Source="/media/Dessert/Churros.png" Stretch="Fill" Grid.Column="1" Height="245"/>
-                    <Image Grid.Column="2" Margin="10,10,10,148" Source="/media/Dessert/Tiramisu Cup.png" Stretch="Fill" Height="245"/>
-                    <Image Grid.Column="3" Margin="10,10,10,148" Source="/media/Dessert/Mochi Ice Cream.png" Stretch="Fill" Height="245"/>
-                    <Image Grid.Column="4" Margin="10,10,10,148" Source="/media/Dessert/Creme Brulee.png" Stretch="Fill" Height="245" RenderTransformOrigin="0.503,0.69"/>
-                    <Image Margin="10,10,10,148" Source="/media/Dessert/Baklava Bites.png" Stretch="Fill" Height="245" Grid.Column="5"/>
-                    <Image Grid.Column="6" Margin="10,10,10,148" Source="/media/Dessert/Matcha Shake.png" Stretch="Fill" Height="245"/>
-                    <Image Margin="10,10,10,147" Source="/media/Dessert/Churro Cinnamon Shake.png" Stretch="Fill" Grid.Row="1"/>
-                    <Image Grid.Column="1" Margin="10,10,10,147" Grid.Row="1" Source="/media/Dessert/Mango Lassi Shake.png" Stretch="Fill"/>
-                    <Image Grid.Column="4" Margin="10,10,10,147" Grid.Row="1" Source="/media/Dessert/Dulce De Leche Shake.png" Stretch="Fill" Height="245"/>
-                    <Image Grid.Column="3" Margin="10,10,10,147" Grid.Row="1" Source="/media/Dessert/Tiramisu Shake.png" Stretch="Fill" Height="245"/>
-                    <Image Grid.Column="2" Margin="10,10,10,147" Grid.Row="1" Source="/media/Dessert/Pandan Coconut Shake.png" Stretch="Fill" Height="245"/>
-                    <Image Grid.Column="5" Margin="10,10,10,147" Grid.Row="1" Source="/media/Dessert/Dubai Chocolate Shake.png" Stretch="Fill" Height="245" RenderTransformOrigin="0.671,0.515"/>
+                    <Image Margin="0,10,10,148" Source="/media/Dessert/Apple Pie.png" Stretch="Fill" Height="245" Grid.ColumnSpan="2"/>
+                    <Image Margin="0,10,10,148" Source="/media/Dessert/Churros.png" Stretch="Fill" Grid.Column="2" Height="245"/>
+                    <Image Grid.Column="3" Margin="10,10,10,148" Source="/media/Dessert/Tiramisu Cup.png" Stretch="Fill" Height="245"/>
+                    <Image Grid.Column="4" Margin="10,10,10,148" Source="/media/Dessert/Mochi Ice Cream.png" Stretch="Fill" Height="245"/>
+                    <Image Grid.Column="5" Margin="10,10,10,148" Source="/media/Dessert/Creme Brulee.png" Stretch="Fill" Height="245" RenderTransformOrigin="0.503,0.69"/>
+                    <Image Margin="10,10,10,148" Source="/media/Dessert/Baklava Bites.png" Stretch="Fill" Height="245" Grid.Column="6"/>
+                    <Image Grid.Column="7" Margin="10,10,10,148" Source="/media/Dessert/Matcha Shake.png" Stretch="Fill" Height="245"/>
+                    <Image Margin="10,10,10,147" Source="/media/Dessert/Churro Cinnamon Shake.png" Stretch="Fill" Grid.Row="1" Grid.ColumnSpan="2"/>
+                    <Image Grid.Column="2" Margin="10,10,10,147" Grid.Row="1" Source="/media/Dessert/Mango Lassi Shake.png" Stretch="Fill"/>
+                    <Image Grid.Column="5" Margin="10,10,10,147" Grid.Row="1" Source="/media/Dessert/Dulce De Leche Shake.png" Stretch="Fill" Height="245"/>
+                    <Image Grid.Column="4" Margin="10,10,10,147" Grid.Row="1" Source="/media/Dessert/Tiramisu Shake.png" Stretch="Fill" Height="245"/>
+                    <Image Grid.Column="3" Margin="10,10,10,147" Grid.Row="1" Source="/media/Dessert/Pandan Coconut Shake.png" Stretch="Fill" Height="245"/>
+                    <Image Grid.Column="6" Margin="10,10,10,147" Grid.Row="1" Source="/media/Dessert/Dubai Chocolate Shake.png" Stretch="Fill" Height="245" RenderTransformOrigin="0.671,0.515"/>
                 </Grid>
             </TabItem>
 
